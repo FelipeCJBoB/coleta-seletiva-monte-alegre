@@ -8,7 +8,7 @@ Escrito por nós, para nós. Quem discordar de algo, abre um PR neste arquivo ou
 |---|---|---|
 | **sex 23/10** (meta interna) | PDF único da Etapa 1 + link do vídeo (até 3 min, YouTube não listado) | Integrante 1 |
 | **dom 25/10, 23h59** (prazo) | Mesmo PDF, só se algo atrasar | Integrante 1 |
-| Etapa 2 | Requisitos, casos de uso e app com testes (data a confirmar com o professor) | Integrante 1 |
+| Etapa 2 | App mobile com testes (TDD), validação, seções 5.1.1 a 5.1.4, vídeo e PDF único (data a confirmar com o professor) | Integrante 1 |
 
 Regra de ouro: **o PDF da Etapa 1 é a prioridade até 23/10.** Código do app só entra na frente se o relatório estiver em dia.
 
@@ -19,7 +19,7 @@ Os mesmos papéis que usamos no HOW IV e que aparecem na seção 6 do relatório
 | Integrante | Papel Scrum | Responsabilidade principal |
 |---|---|---|
 | 1 | Scrum Master | Seção 6 (Scrum), reuniões, Trello e prints, montar e enviar o PDF |
-| 2 | Product Owner | Seção 4.1 (escopo), prioridades do backlog, requisitos e casos de uso (Etapa 2) |
+| 2 | Product Owner | Seção 4.1 (escopo), prioridades do backlog e critérios de aceite (base dos testes da Etapa 2) |
 | 3 | Redator | Seções 1, 2, 3, 8 e 9, formatação ABNT, revisão final de texto |
 | 4 | Editor | Vídeo (roteiro, gravação, edição, YouTube), figuras e tabelas do relatório |
 | 5 | Time de Desenvolvimento (técnico) | Repositório, ambiente, arquitetura do app, primeiros testes, CI |
@@ -49,8 +49,7 @@ Todos somos Time de Desenvolvimento quando o app começar: cada um assume uma fu
 **Integrante 2 (Product Owner)**
 - [ ] Revisar a seção 4.1 (4.1.1 a 4.1.8) com o escopo de [ESCOPO.md](ESCOPO.md)
 - [ ] Fechar o Product Backlog priorizado e os critérios de aceite de cada item
-- [ ] Resolver as decisões D-01 e D-03 da seção 7
-- [ ] Começar a lista de requisitos da Etapa 2 (já em ESCOPO.md)
+- [ ] Escrever os critérios de aceite de PB06 a PB15 (viram os testes da Etapa 2)
 
 **Integrante 3 (Redator)**
 - [ ] Revisar as seções 1, 2 e 3 (texto do HOW IV adaptado ao HOW VIII, sem copiar sem revisar)
@@ -75,7 +74,7 @@ Todos somos Time de Desenvolvimento quando o app começar: cada um assume uma fu
 |---|---|---|
 | 2 | 26/10 a 08/11 | Base da arquitetura, dados locais, **calendário de coleta** com testes |
 | 3 | 09/11 a 22/11 | **Pontos de descarte** com filtro por material, testes |
-| 4 | 23/11 a 06/12 | **Guia de separação**, lembrete, relatório e vídeo da Etapa 2 |
+| 4 | 23/11 a 06/12 | **Guia de separação**, lembrete, validação, relatório e vídeo da Etapa 2 |
 
 Se o professor marcar a Etapa 2 para antes disso, as sprints 3 e 4 são comprimidas e o lembrete (RF02) sai primeiro.
 
@@ -93,7 +92,8 @@ Donos das funcionalidades (sempre em dupla com o Integrante 5, porque ninguém n
 
 - **Daily assíncrona** no grupo, de segunda a sexta, 3 linhas: o que fiz, o que vou fazer, o que me trava.
 - **Planning** no primeiro dia da sprint (até 1 h), **Review + Retrospectiva** no último dia (até 1 h no total). Na seção 6 do relatório usamos exatamente esses valores.
-- Tarefas ficam no Trello (evidência para o professor). Código e documentos de planejamento ficam neste repositório.
+- Tarefas ficam no Trello, quadro "HOW VIII — Coleta Seletiva Monte Alegre" (evidência para o professor): Product Backlog, Releases, Sprints e colunas por Integrante, divididas em Etapa 1 e Etapa 2. Não há atribuição por nome; cada um trabalha na coluna do seu número. Cópia do backlog em [BACKLOG.md](BACKLOG.md).
+- Código, documentos de planejamento e o **relatório mestre** ficam neste repositório (decisão D-03): pasta `relatorio/`, uma seção por arquivo, um dono por arquivo, PDF gerado a partir dela.
 - Ninguém fica bloqueado por mais de um dia sem avisar.
 - Revisão cruzada: o que um escreve, outro lê antes de entrar no PDF.
 
@@ -114,10 +114,10 @@ Donos das funcionalidades (sempre em dupla com o Integrante 5, porque ninguém n
 
 | ID | Item | Situação |
 |---|---|---|
-| D-01 | **Dados do calendário:** o texto de campo do HOW IV diz que a coleta "não tem horário fixo", mas a RN1 fala em 08h às 12h. Precisamos de uma única versão | aberto, Integrante 2 |
-| D-02 | **Mapa (RF05):** começamos com lista + coordenadas; mapa interativo só depois, porque pede chave de API e configuração extra | proposto |
-| D-03 | **Onde fica o relatório mestre** (Drive do grupo, um arquivo só, um editor por seção) | aberto, Integrante 2 |
-| D-04 | **Dados de demonstração** de ecopontos: fictícios e marcados como tal, ou reais? Perguntar ao professor | aberto, Integrante 1 |
+| D-01 | **Horário da coleta:** o texto de campo do HOW IV diz que a coleta "não tem horário fixo" e a RN1 falava em 08h às 12h | **decidido:** sem horário fixo; o app mostra só os dias |
+| D-02 | **Mapa (RF05):** começamos com lista + coordenadas; mapa interativo só depois, porque pede chave de API e configuração extra | **aprovado** |
+| D-03 | **Onde fica o relatório mestre** | **decidido:** no Git, pasta `relatorio/` |
+| D-04 | **Dados de demonstração** de ecopontos | **decidido:** fictícios, marcados como tal (confirmar com o professor, Integrante 1) |
 | R-01 | Ninguém tem Mac: iOS só roda via CI (macOS) e simulador. Confirmar aceitação com o professor | aberto, Integrante 1 |
 | R-02 | Todos novos em mobile: o ambiente leva mais tempo que o previsto. Mitigação: instalar já nesta semana | em curso |
 | R-03 | Lembrete (RF02) exige permissão de notificação e agendamento no aparelho; é o item mais arriscado do MVP | aceito, é o primeiro a sair se faltar tempo |

@@ -11,8 +11,8 @@ Moradores do Monte Alegre não sabem os dias da coleta (principalmente os mais j
 | ID | Requisito | HOW IV | Prioridade |
 |---|---|---|---|
 | RF01 | O usuário escolhe seu endereço/setor de coleta e o app o guarda no aparelho | RF1 | Alta |
-| RF02 | O app lembra o usuário (notificação) antes da coleta, com antecedência configurável | RF2 | Baixa (primeiro a sair se faltar tempo) |
-| RF03 | O app mostra calendário com os dias e horários das coletas seletiva e comum do setor | RF3 | Alta |
+| RF02 | O app lembra o usuário (notificação) na véspera da coleta, em horário escolhido por ele | RF2 | Baixa (primeiro a sair se faltar tempo) |
+| RF03 | O app mostra calendário com os dias das coletas seletiva e comum do setor (a coleta não tem horário fixo) | RF3 | Alta |
 | RF04 | O app lista os pontos de descarte e mostra, para cada um, endereço, horário e materiais aceitos | RF5 | Alta |
 | RF05 | O app permite ver a localização do ponto no mapa (começa por coordenadas e abertura no app de mapas) | RF5 | Média |
 | RF06 | Os pontos são categorizados por tipo de material (pilhas, óleo, eletrônicos, roupas) | RF6 | Alta |
@@ -32,8 +32,8 @@ Moradores do Monte Alegre não sabem os dias da coleta (principalmente os mais j
 
 | ID | Regra | HOW IV |
 |---|---|---|
-| RN01 | Coleta seletiva às terças e quintas, de manhã | RN1 (ver D-01) |
-| RN02 | Coleta comum às segundas, quartas e sextas, à noite | RN2 (ver D-01) |
+| RN01 | Coleta seletiva às terças e quintas, sem horário fixo de passagem do caminhão | RN1 (horário removido, ver D-01) |
+| RN02 | Coleta comum às segundas, quartas e sextas, sem horário fixo de passagem | RN2 (horário removido, ver D-01) |
 | RN03 | Em feriados nacionais não há coleta; ela passa para o próximo dia útil | RN3 |
 | RN04 | Pilhas, baterias e óleo de cozinha usado só vão para pontos de descarte, nunca para a coleta porta a porta | RN6 |
 | RN05 | Os pontos seguem seus horários de funcionamento (seg a sex, 9h às 17h; sábado, 9h às 12h) | RN7 |
@@ -49,7 +49,13 @@ Pontuação por ações, marketplace de recompensas, ranking e competições, va
 
 Esses itens continuam no relatório como visão de evolução, não como compromisso.
 
-## Casos de uso previstos (Etapa 2)
+## Dados do app
+
+Os pontos de descarte e o conteúdo do guia são **dados de demonstração fictícios**, identificados como tal no app e no relatório (decisão D-04). O app não coleta dados pessoais de terceiros.
+
+## Casos de uso (apoio aos testes)
+
+Não são uma seção exigida na Etapa 2 do HOW VIII (lá o foco é aplicação, testes e validação). Servem de base para escrever os testes e os critérios de aceite.
 
 | ID | Caso de uso | Ator |
 |---|---|---|

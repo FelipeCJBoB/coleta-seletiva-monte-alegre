@@ -9,7 +9,7 @@ Projeto da disciplina **HOW VIII** (Análise e Desenvolvimento de Sistemas, UNIV
 | Etapa | Entrega | Situação |
 |---|---|---|
 | Etapa 1 | Relatório (PDF), vídeo de até 3 min e Scrum configurado | em andamento, prazo 25/10/2026 |
-| Etapa 2 | Requisitos, casos de uso e aplicativo com testes | a iniciar após a Etapa 1 |
+| Etapa 2 | Aplicativo mobile com testes (TDD), validação, relatório e vídeo | a iniciar após a Etapa 1 |
 
 ## O que o app faz (MVP)
 
@@ -22,7 +22,9 @@ Detalhes e o que ficou de fora: [docs/ESCOPO.md](docs/ESCOPO.md).
 ## Como o time trabalha
 
 - Plano completo, divisão entre os 5 integrantes e calendário: [docs/PLANO.md](docs/PLANO.md)
+- Product Backlog (cópia em Git do que está no Trello): [docs/BACKLOG.md](docs/BACKLOG.md)
 - Como usar o Git no projeto: [CONTRIBUINDO.md](CONTRIBUINDO.md)
+- Scrum no Trello (quadro privado do grupo): Product Backlog, Releases, Sprints e colunas por Integrante, divididas em Etapa 1 e Etapa 2.
 
 ## Tecnologia (planejada)
 
