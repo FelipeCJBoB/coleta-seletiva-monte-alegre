@@ -32,3 +32,9 @@ desktop.ini
 *.keystore
 google-services.json
 .env
+
+# Relatório
+relatorio/autores.local.md
+relatorio/build/
+*.docx
+*.pdf

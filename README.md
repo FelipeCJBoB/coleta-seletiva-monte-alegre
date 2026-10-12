@@ -22,6 +22,7 @@ Detalhes e o que ficou de fora: [docs/ESCOPO.md](docs/ESCOPO.md).
 ## Como o time trabalha
 
 - Plano completo, divisão entre os 5 integrantes e calendário: [docs/PLANO.md](docs/PLANO.md)
+- Relatório (fonte em Markdown, uma seção por arquivo): [relatorio/README.md](relatorio/README.md)
 - Product Backlog (cópia em Git do que está no Trello): [docs/BACKLOG.md](docs/BACKLOG.md)
 - Como usar o Git no projeto: [CONTRIBUINDO.md](CONTRIBUINDO.md)
 - Scrum no Trello (quadro privado do grupo): Product Backlog, Releases, Sprints e colunas por Integrante, divididas em Etapa 1 e Etapa 2.
