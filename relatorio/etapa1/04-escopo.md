@@ -22,7 +22,7 @@ Em Itajaí, moradores dos bairros São Vicente, Fazenda, Vila Operária, São Jo
 
 Em Blumenau, um levantamento do Samae divulgado em 2020 apontou que cerca de 45% do material coletado como reciclável (315 de 700 toneladas por mês) não era aproveitado, porque chegava misturado a rejeitos orgânicos nas residências e nos contêineres, ao custo de R$ 194 por tonelada para o município (INFORME BLUMENAU, 2020). O Samae orienta que eletrônicos, lâmpadas, pilhas e baterias não são recolhidos pela coleta seletiva e devem voltar ao local de compra, e que as coletas seletiva e comum passam em dias diferentes (INFORME BLUMENAU, 2020). Nos comentários da matéria, um leitor perguntou se lâmpadas, pilhas, pneus e isopor também deveriam ser recolhidos pelo Samae, o que mostra a dúvida sobre o que separar.
 
-Em Balneário Camboriú, o programa ReciclaBC passa em todos os endereços ao menos uma vez por semana e orienta colocar o reciclável na rua apenas no dia da passagem do caminhão; pilhas, baterias, lâmpadas e eletrônicos devem ser devolvidos ao local de compra (PÁGINA 3, 2022). Em Camboriú, cada bairro tem um dia de coleta seletiva por semana, como a terça-feira para Monte Alegre, Santa Regina e Toca (CAMBORIÚ, 2023), e uma ação contra a dengue nos bairros Taboleiro e Monte Alegre identificou 150 terrenos baldios com problemas e recolheu 92 pneus e 37 televisores (CAMBORIÚ, 2021).
+Em Balneário Camboriú, o programa ReciclaBC passa em todos os endereços ao menos uma vez por semana e orienta colocar o reciclável na rua apenas no dia da passagem do caminhão; pilhas, baterias, lâmpadas e eletrônicos devem ser devolvidos ao local de compra (PÁGINA 3, 2022). Em Camboriú, cada bairro tem um dia de coleta seletiva por semana, como a terça-feira para Monte Alegre, Santa Regina e Toca (CAMBORIÚ, 2023), e uma ação contra a dengue nos bairros Taboleiro e Monte Alegre identificou 150 terrenos baldios com problemas e recolheu 92 pneus e 37 televisores (CAMBORIÚ, 2021). O ecoponto municipal recebe pneus, baterias, eletrodomésticos e eletroeletrônicos, e pilhas e lâmpadas devem ser levadas ao comércio que as vende (CAMBORIÚ, 2017).
 
 Quanto ao óleo de cozinha, o Tribunal de Justiça de Santa Catarina indica o programa Papaolito para Blumenau e Gaspar e não lista pontos de entrega em Itajaí, Balneário Camboriú, Brusque e Navegantes (SANTA CATARINA, [s.d.]). Em municípios catarinenses fora do Vale, estudos de percepção encontraram falta de conhecimento sobre o gerenciamento dos resíduos (CAMPOS; BORGA; SARTOREL, 2017), 60,2% dos entrevistados descartando o óleo na pia ou em outros lugares (SOUZA; CAMPOS; BORGA, 2017) e óleo guardado em garrafa PET que acaba no lixo orgânico por não haver onde descartá-lo (COLOMBO, 2022). No país, a coleta seletiva existe em cerca de 41% dos municípios e recolhe cerca de 10% do que é potencialmente reciclável (CONKE; NASCIMENTO, 2018).
 
@@ -62,6 +62,8 @@ O escopo é uma versão mínima funcional (MVP), o que deixa claro o que será e
 - Painel administrativo para cadastro de pontos e cronogramas e relato de problemas com foto.
 - Rastreamento em tempo real dos caminhões, notificações por servidor e funcionalidades de comunicação (chat, fórum).
 - Cobertura automática de todos os municípios do Vale do Itajaí: o MVP cadastra um conjunto inicial, e os demais entram por cadastro de dados.
+- Suporte a outras plataformas além de Android e iOS.
+- Testes manuais extensivos: o foco são os testes automatizados.
 
 Como restrição, a equipe não dispõe de computador Mac; os testes de iOS serão executados em simulador, na integração contínua em nuvem, abordagem autorizada pelo professor.
 
@@ -74,6 +76,7 @@ Os principais envolvidos, com seu papel, interesse, nível de poder e de interes
 | Moradores do Vale do Itajaí (piloto: bairro Monte Alegre) | Usuários finais do aplicativo | Saber os dias de coleta, onde descartar e como separar | Baixo | Alto | Manter informados e envolvidos: validação com moradores e canal de sugestões |
 | Prefeituras e órgãos de gestão ambiental dos municípios | Responsáveis pela gestão de resíduos e pela coleta seletiva | Aumentar a reciclagem, promover educação ambiental e reduzir custos | Alto | Alto | Gerenciar de perto: apresentar o projeto e conferir dias de coleta e pontos |
 | Empresas de coleta | Executam a coleta e definem os dias | Eficiência da operação e dados da comunidade | Alto | Médio | Manter satisfeitas: validar os dias de coleta usados no app |
+| Cooperativas de catadores, lideranças comunitárias e ONGs locais | Triam os recicláveis e ajudam a divulgar o uso do aplicativo (ex.: Cooperfoz e Reciclavale, em Itajaí) | Receber material limpo e separado, com condições de trabalho adequadas | Médio | Alto | Manter informados: orientar a separação correta pelo guia e abrir canal de sugestões |
 | Comerciantes do bairro | Potenciais parceiros em evoluções futuras | Aproximar clientes e associar a marca à sustentabilidade | Médio | Médio | Manter informados sobre os resultados do MVP |
 | Equipe do projeto e professor | Desenvolvem, avaliam e orientam | Entregar um aplicativo testado e documentado | Alto | Alto | Reuniões de sprint e entregas por etapa |
 
