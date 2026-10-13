@@ -46,19 +46,19 @@ Falante: o próprio Integrante 4. Palavras por cena entre parênteses.
 | 5. Diferencial | 1:30 a 1:45 | "O diferencial é a abrangência regional: municípios, setores e pontos são dados cadastrados, então o aplicativo cresce para outras cidades sem reescrever o código. E tudo é desenvolvido com testes escritos antes." (32) | **A5** vista aérea de cidade do Vale; pins aparecendo no mapa (editor) |
 | 6. Resultados | 1:45 a 2:10 | "Na Etapa 1, entregamos o planejamento: o escopo da versão mínima e o que ficou de fora, os envolvidos, as atividades, as ferramentas, as métricas de sucesso e o cronograma em quatro sprints." (33) | Cartão com 6 ícones que se marcam um a um (editor, sem IA) |
 | 7. Scrum | 2:10 a 2:30 | "Configuramos o Scrum no Trello: um Product Backlog com dezessete itens, duas releases, quatro sprints e uma coluna de tarefas para cada integrante, divididas entre as duas etapas." (28) | **Prints reais do Trello** (Figuras 1 e 2 do relatório), com zoom nas listas |
-| 8. Etapa 2 e chamada | 2:30 a 2:45 | "Na Etapa 2, vamos desenvolver o aplicativo e validar com usuários. Se você mora no Vale do Itajaí, venha testar. Coleta Seletiva Vale do Itajaí: informação certa, no dia certo." (30) | **A6** vizinhos na rua, um com celular; fecha com cartão: nome do projeto e contato do grupo |
+| 8. Etapa 2 e chamada | 2:30 a 2:45 | "Na Etapa 2, vamos desenvolver o aplicativo e validar com usuários. Se você mora no Vale do Itajaí, venha testar. Coleta Seletiva Vale do Itajaí: informação certa, no dia certo." (30) | **A6** vizinhos na rua, um com celular; fecha com cartão: nome do projeto e os e-mails institucionais dos 5 integrantes |
 
 Total: 287 palavras. Se passar de 3:00 na edição, cortar a cena 6 para uma frase.
-
-**Aviso na tela (cena 1 ou final):** "Imagens ilustrativas geradas por inteligência artificial." Prints do Trello e dados citados são reais.
 
 ## 4. Imagens e animações no Higgsfield
 
 **Modelo escolhido:** **Higgsfield Soul 2.0** (modelo próprio, foto-realista, 16:9, qualidade 1.5k). Saldo atual da conta: 11,91 créditos (plano básico). Gerar **1 imagem de teste primeiro** e conferir o custo exibido antes de gerar as demais.
 
-**Animação:** o catálogo da Higgsfield tem como modelo próprio só o de imagens (Soul). Os modelos de vídeo disponíveis são de terceiros. Para gastar pouco, a regra é:
-1. **Movimento no editor** (zoom lento, pan, fusão entre cenas): custo zero.
-2. **Opcional, só se sobrar crédito:** 1 ou 2 clipes de 5 s a partir das imagens A1 e A5, com o Kling v3.0 em modo padrão e **som desligado** (reduz créditos).
+**Animação:** o catálogo da Higgsfield tem como modelo próprio só o de imagens (Soul). Para gastar pouco, a regra é:
+1. **Movimento no editor** (zoom lento, pan, fusão entre cenas): custo zero. É o padrão para todas as cenas.
+2. **Se alguma cena precisar de animação mais detalhada:** gerar o clipe no **Google Flow** (conta PRO do grupo), usando a imagem do Higgsfield como quadro inicial. Clipes de 5 a 8 s, sem áudio gerado (a narração é do integrante). Não usar outros modelos pagos.
+
+Prompt-base para o Flow (ajustar por cena): `Slow cinematic camera push-in, subtle natural movement of people and objects, photorealistic, no text on screen, no speech, 16:9`
 
 ### Lista de imagens (6, mais variações)
 
@@ -88,6 +88,7 @@ Sufixo comum para manter o mesmo estilo: `photorealistic, natural light, 35mm le
 | 1. Gravar a narração | Celular ou microfone, em ambiente silencioso; ler em voz alta antes | 1 arquivo de áudio |
 | 2. Gerar as imagens | Higgsfield (Soul 2.0) | 7 a 14 imagens |
 | 3. Montar | Editor gratuito (CapCut, DaVinci Resolve ou Clipchamp) | linha do tempo com zoom e fusões |
+| 3b. Clipes de movimento (só se precisar) | Google Flow (conta PRO), com a imagem do Higgsfield como quadro inicial | 1 a 3 clipes de 5 a 8 s |
 | 4. Texto e esboços de tela | No editor | números, fontes e 5 telas |
 | 5. Legendas | Legenda automática do editor, **revisada** (nomes e números) | pt-BR, 42 caracteres por linha, 2 linhas |
 | 6. Exportar | 1080p, 16:9, MP4 | arquivo final com no máximo 3:00 |
@@ -104,9 +105,11 @@ Sufixo comum para manter o mesmo estilo: `photorealistic, natural light, 35mm le
 | 19 e 20/10 | Montagem, legendas e revisão |
 | qua 21/10 | Publicado como Não listado e link entregue aos Integrantes 3 e 1 |
 
-## 7. Pontos para o grupo decidir
+## 7. Decisões do grupo
 
-1. **Contato no cartão final:** e-mail institucional de um integrante ou perfil do projeto.
-2. **Aviso de imagens geradas por IA:** na cena 1 ou no final (recomendado: final e na descrição do YouTube).
-3. **Animação paga (Kling):** usar ou ficar só com movimento no editor.
-4. **Quem narra:** o Integrante 4, como combinado, ou outra voz do grupo.
+| Ponto | Decisão |
+|---|---|
+| Contato no cartão final | E-mails institucionais dos 5 integrantes (os mesmos do relatório) |
+| Aviso de imagens geradas por IA | Não haverá aviso |
+| Animação paga | Sem Kling. Movimento no editor e, se precisar, Google Flow (conta PRO) |
+| Quem narra | Integrante 4 |
