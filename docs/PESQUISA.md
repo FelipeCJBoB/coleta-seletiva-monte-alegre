@@ -1,6 +1,6 @@
 # Levantamento de fatos, dados e relatos (Vale do Itajaí)
 
-Complementa a pesquisa de campo do HOW IV (observação e entrevistas no Monte Alegre). Como não será possível fazer novas consultas diretas, a prova de conceito e o 4.1.1 usam **análise documental**: matérias com relatos de moradores, comunicados oficiais e estudos publicados sobre a coleta seletiva na região.
+Complementa a pesquisa de campo do HOW IV (observação e entrevistas com moradores). Como não será possível fazer novas consultas diretas, a prova de conceito e o 4.1.1 usam **análise documental**: matérias com relatos de moradores, comunicados oficiais e estudos publicados sobre a coleta seletiva na região.
 
 Regras de uso:
 - Essas fontes são de terceiros. No relatório aparecem como tal ("segundo...", com citação), nunca como entrevistas do grupo.

@@ -2,7 +2,7 @@
 
 ## SCRUM Configurado
 
-O Scrum foi adotado por sua natureza iterativa e incremental, que permite adaptação rápida e alinhamento constante com os stakeholders. O projeto é dividido em sprints de duas semanas e foi configurado na ferramenta online Trello, no quadro "HOW VIII — Coleta Seletiva Monte Alegre", com listas para product backlog, releases e sprints e colunas por integrante, divididas entre a Etapa 1 e a Etapa 2. O quadro pode ser acessado em: [[INSERIR LINK DE ACESSO AO QUADRO DO TRELLO PARA O PROFESSOR]].
+O Scrum foi adotado por sua natureza iterativa e incremental, que permite adaptação rápida e alinhamento constante com os stakeholders. O projeto é dividido em sprints de duas semanas e foi configurado na ferramenta online Trello, no quadro "HOW VIII — Coleta Seletiva Vale do Itajaí", com listas para product backlog, releases e sprints e colunas por integrante, divididas entre a Etapa 1 e a Etapa 2. O quadro pode ser acessado em: [[INSERIR LINK DE ACESSO AO QUADRO DO TRELLO PARA O PROFESSOR]].
 
 **Papéis do time Scrum**
 

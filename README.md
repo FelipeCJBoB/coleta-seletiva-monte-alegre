@@ -1,8 +1,8 @@
 # Coleta Seletiva Vale do Itajaí
 
-Aplicativo móvel (Android e iOS) para ajudar moradores do **Vale do Itajaí/SC** a saber quando passa a coleta, onde descartar materiais específicos (pilhas, óleo de cozinha, eletrônicos) e como separar o lixo. O bairro **Monte Alegre** é o caso piloto da pesquisa de campo.
+Aplicativo móvel (Android e iOS) para ajudar moradores do **Vale do Itajaí/SC** a saber quando passa a coleta, onde descartar materiais específicos (pilhas, óleo de cozinha, eletrônicos) e como separar o lixo.
 
-Projeto da disciplina **HOW VIII** (Análise e Desenvolvimento de Sistemas, UNIVALI). Continua o trabalho de pesquisa de campo feito no HOW IV, que ficou limitado ao Monte Alegre e deixou a expansão como fase futura. Aqui essa fase entra no escopo, como cobertura regional por dados, e o desenvolvimento passa a ser orientado a testes (TDD) com Scrum.
+Projeto da disciplina **HOW VIII** (Análise e Desenvolvimento de Sistemas, UNIVALI). Nasce de uma ideia do HOW IV (pesquisa de campo e proposta de app gamificado) e a transforma em um projeto novo, voltado ao Vale do Itajaí, com desenvolvimento orientado a testes (TDD) e Scrum.
 
 ## Status
 

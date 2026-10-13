@@ -93,7 +93,7 @@ Donos das funcionalidades (sempre em dupla com o Integrante 5, porque ninguém n
 
 - **Daily assíncrona** no grupo, de segunda a sexta, 3 linhas: o que fiz, o que vou fazer, o que me trava.
 - **Planning** no primeiro dia da sprint (até 1 h), **Review + Retrospectiva** no último dia (até 1 h no total). Na seção 6 do relatório usamos exatamente esses valores.
-- Tarefas ficam no Trello, quadro "HOW VIII — Coleta Seletiva Monte Alegre" (evidência para o professor): Product Backlog, Releases, Sprints e colunas por Integrante, divididas em Etapa 1 e Etapa 2. Não há atribuição por nome; cada um trabalha na coluna do seu número. Cópia do backlog em [BACKLOG.md](BACKLOG.md).
+- Tarefas ficam no Trello, quadro "HOW VIII — Coleta Seletiva Vale do Itajaí" (evidência para o professor): Product Backlog, Releases, Sprints e colunas por Integrante, divididas em Etapa 1 e Etapa 2. Não há atribuição por nome; cada um trabalha na coluna do seu número. Cópia do backlog em [BACKLOG.md](BACKLOG.md).
 - Código, documentos de planejamento e o **relatório mestre** ficam neste repositório (decisão D-03): pasta `relatorio/`, uma seção por arquivo, um dono por arquivo, PDF gerado a partir dela.
 - Ninguém fica bloqueado por mais de um dia sem avisar.
 - Revisão cruzada: o que um escreve, outro lê antes de entrar no PDF.
@@ -119,7 +119,7 @@ Donos das funcionalidades (sempre em dupla com o Integrante 5, porque ninguém n
 | D-02 | **Mapa (RF05):** começamos com lista + coordenadas; mapa interativo só depois, porque pede chave de API e configuração extra | **aprovado** |
 | D-03 | **Onde fica o relatório mestre** | **decidido:** no Git, pasta `relatorio/` |
 | D-04 | **Dados de demonstração** de ecopontos | **decidido:** fictícios, marcados como tal (confirmar com o professor, Integrante 1) |
-| D-05 | **Alcance geográfico** | **decidido:** Vale do Itajaí, por dados cadastrados (município e setor); Monte Alegre é o piloto. Ver `docs/ESCOPO.md` |
+| D-05 | **Alcance geográfico** | **decidido:** Vale do Itajaí, por dados cadastrados (município e setor). O HOW IV é a origem da ideia e da pesquisa de campo. Ver `docs/ESCOPO.md` |
 | D-06 | **O que trazer de volta do HOW IV** | **decidido (grupo):** pontuação simples com histórico (PB16), dicas de reciclagem (PB17) e rota no app de mapas (RF05). O resto segue fora |
 | R-01 | Ninguém tem Mac: iOS só roda via CI (macOS) e simulador. **autorizado pelo professor** | aberto, Integrante 1 |
 | R-02 | Todos novos em mobile: o ambiente leva mais tempo que o previsto. Mitigação: instalar já nesta semana | em curso |

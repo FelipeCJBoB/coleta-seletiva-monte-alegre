@@ -4,9 +4,10 @@ Recorte aprovado pelo grupo a partir do projeto do HOW IV. A coluna "HOW IV" mos
 
 ## Narrativa: do HOW IV ao HOW VIII
 
-- **HOW IV:** pesquisa de campo no bairro **Monte Alegre**, tratado como piloto. A expansão geográfica ficou registrada como exclusão ("fase futura").
-- **HOW VIII:** a fase futura entra no escopo como **cobertura regional por dados**: o app atende o **Vale do Itajaí**, com municípios, setores, dias de coleta e pontos cadastrados como dados. O Monte Alegre continua sendo o caso piloto validado com moradores.
+- **Origem (HOW IV):** pesquisa de campo (observação e entrevistas com moradores do bairro Monte Alegre) e proposta de um aplicativo gamificado para esse bairro.
+- **Projeto novo (HOW VIII), Coleta Seletiva Vale do Itajaí:** a ideia foi retomada, reduzida a um MVP testável e voltada à região. O app atende moradores de vários municípios, com municípios, setores, dias de coleta e pontos cadastrados como dados.
 - **Por que dados e não código:** dias de coleta e pontos variam por município (e até por bairro). Isso é testável: o teste cadastra um município novo e confere o calendário sem alterar o código.
+- **O bairro do HOW IV** aparece só como origem da pesquisa de campo; não é o tema nem o limite do projeto.
 
 ## Problema
 
@@ -42,7 +43,7 @@ Moradores não sabem os dias da coleta (principalmente os mais jovens), descarta
 
 | ID | Regra | HOW IV |
 |---|---|---|
-| RN01 | Os dias da coleta seletiva vêm do cadastro do setor; não há horário fixo de passagem do caminhão. Exemplo de dado: em Camboriú, terça-feira para Monte Alegre, Santa Regina e Toca (Prefeitura de Camboriú, 2023) | RN1 (horário removido, D-01) |
+| RN01 | Os dias da coleta seletiva vêm do cadastro do setor; não há horário fixo de passagem do caminhão. Exemplo de dado: em Camboriú, cada bairro tem um dia por semana, de segunda a sexta (Prefeitura de Camboriú, 2023) | RN1 (horário removido, D-01) |
 | RN02 | Os dias da coleta comum vêm do cadastro do setor, também sem horário fixo | RN2 (horário removido, D-01) |
 | RN03 | Em feriados nacionais não há coleta; ela passa para o próximo dia útil | RN3 |
 | RN04 | Pilhas, baterias e óleo de cozinha usado só vão para pontos de descarte ou comércio, nunca para a coleta porta a porta | RN6 |
@@ -56,7 +57,7 @@ As regras RN4 (responsabilidade pela separação) e RN5 (horário para colocar o
 
 ## Dados do app
 
-Municípios, setores, dias de coleta, pontos e itens do guia são **dados de demonstração**, identificados como tal no app e no relatório (decisão D-04). Os valores de exemplo se inspiram em fontes públicas da região ([PESQUISA.md](PESQUISA.md)); os registros do app são fictícios. O MVP cadastra o piloto e pelo menos mais um município.
+Municípios, setores, dias de coleta, pontos e itens do guia são **dados de demonstração**, identificados como tal no app e no relatório (decisão D-04). Os valores de exemplo se inspiram em fontes públicas da região ([PESQUISA.md](PESQUISA.md)); os registros do app são fictícios. O MVP cadastra pelo menos dois municípios do Vale do Itajaí.
 
 ## Fora do escopo (decidido)
 
