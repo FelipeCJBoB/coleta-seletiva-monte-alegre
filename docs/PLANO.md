@@ -83,7 +83,7 @@ Donos das funcionalidades (sempre em dupla com o Integrante 5, porque ninguém n
 | Funcionalidade | Dono | Apoio |
 |---|---|---|
 | Base, dados locais, CI | 5 | todos |
-| Calendário e endereço/setor | 2 | 5 |
+| Calendário e município/setor | 2 | 5 |
 | Pontos de descarte e filtro | 4 | 5 |
 | Guia de separação | 3 | 5 |
 | Testes de interface e evidências para o relatório | 1 | 5 |
@@ -118,6 +118,8 @@ Donos das funcionalidades (sempre em dupla com o Integrante 5, porque ninguém n
 | D-02 | **Mapa (RF05):** começamos com lista + coordenadas; mapa interativo só depois, porque pede chave de API e configuração extra | **aprovado** |
 | D-03 | **Onde fica o relatório mestre** | **decidido:** no Git, pasta `relatorio/` |
 | D-04 | **Dados de demonstração** de ecopontos | **decidido:** fictícios, marcados como tal (confirmar com o professor, Integrante 1) |
+| D-05 | **Alcance geográfico** | **decidido:** Vale do Itajaí, por dados cadastrados (município e setor); Monte Alegre é o piloto. Ver `docs/ESCOPO.md` |
+| D-06 | **O que trazer de volta do HOW IV** (pontuação, dicas etc.) | **aberto:** o grupo reavalia `docs/FORA-DO-ESCOPO.md` |
 | R-01 | Ninguém tem Mac: iOS só roda via CI (macOS) e simulador. Confirmar aceitação com o professor | aberto, Integrante 1 |
 | R-02 | Todos novos em mobile: o ambiente leva mais tempo que o previsto. Mitigação: instalar já nesta semana | em curso |
 | R-03 | Lembrete (RF02) exige permissão de notificação e agendamento no aparelho; é o item mais arriscado do MVP | aceito, é o primeiro a sair se faltar tempo |

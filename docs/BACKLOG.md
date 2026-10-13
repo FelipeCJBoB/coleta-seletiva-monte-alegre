@@ -18,10 +18,10 @@ Prioridade: 1 é a mais alta. Pontos em escala de Fibonacci.
 
 | ID | História | Sprint | Prior. | Pontos |
 |---|---|---|---|---|
-| PB06 | Como time, quero a base técnica do app (KMP, arquitetura, banco local, CI) | 2 | 1 | 8 |
-| PB07 | Como morador, quero escolher meu endereço/setor (RF01) | 2 | 1 | 3 |
-| PB08 | Como morador, quero ver o calendário de coleta do meu setor (RF03) | 2 | 1 | 5 |
-| PB09 | Como morador, quero ver pontos de descarte e filtrar por material (RF04, RF06, RF07) | 3 | 2 | 8 |
+| PB06 | Como time, quero a base técnica do app (KMP, arquitetura, banco local com municípios e setores como dados, CI) | 2 | 1 | 8 |
+| PB07 | Como morador, quero escolher meu município e setor de coleta (RF01) | 2 | 1 | 3 |
+| PB08 | Como morador, quero ver o calendário de coleta do meu município e setor (RF03) | 2 | 1 | 5 |
+| PB09 | Como morador, quero ver os pontos de descarte do meu município e filtrar por material (RF04, RF06, RF07) | 3 | 2 | 8 |
 | PB10 | Como morador, quero ver onde fica o ponto de descarte (RF05) | 3 | 3 | 3 |
 | PB11 | Como morador, quero buscar no guia de separação, mesmo sem internet (RF08) | 4 | 2 | 8 |
 | PB12 | Como morador, quero ser lembrado na véspera da coleta (RF02) | 4 | 4 | 5 |

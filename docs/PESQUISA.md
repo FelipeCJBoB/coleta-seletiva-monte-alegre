@@ -4,9 +4,9 @@ Complementa a pesquisa de campo do HOW IV (observação e entrevistas no Monte A
 
 Consulta feita em 13/10/2026. Onde não consegui ler a fonte completa, está marcado.
 
-## 1. Município do bairro: confirmar antes de usar
+## 1. Município do bairro (decisão: escopo regional)
 
-Nas buscas, o único bairro **Monte Alegre** da região que apareceu em fontes oficiais é o de **Camboriú/SC**. Não encontrei Monte Alegre em Itajaí. O repositório e o relatório hoje dizem "Itajaí". O grupo precisa confirmar em qual município fica o bairro pesquisado no HOW IV; os itens da seção 2 só valem se for Camboriú.
+Nas buscas, o único bairro **Monte Alegre** da região que apareceu em fontes oficiais é o de **Camboriú/SC**; não encontrei Monte Alegre em Itajaí. Para não depender disso, o escopo passou a ser o **Vale do Itajaí**, com o Monte Alegre como caso piloto (veja [ESCOPO.md](ESCOPO.md)). No relatório, o parágrafo que usa as fontes de Camboriú traz um aviso amarelo para o grupo confirmar que é o bairro da pesquisa do HOW IV.
 
 ## 2. Camboriú (fontes oficiais da Prefeitura)
 

@@ -16,15 +16,19 @@ O descarte incorreto em ruas e terrenos baldios é comum, com acúmulo de sujeir
 
 O principal problema é, portanto, a falta de informação e de estrutura local para a destinação correta dos resíduos, sobretudo entre o público mais jovem.
 
+**Dados e relatos de fontes públicas.** Para complementar a pesquisa de campo, foram consultadas fontes de terceiros, que não substituem a pesquisa feita pelo grupo. A Prefeitura de Camboriú, onde existe um bairro Monte Alegre [[confirmar que é o bairro da pesquisa de campo do HOW IV]], informa que a coleta seletiva passa uma vez por semana em cada bairro e que o Monte Alegre é atendido às terças-feiras (CAMBORIÚ, 2023); portanto, os dias variam por bairro e por município, o que justifica um calendário por setor. Em 2021, uma ação contra a dengue concentrou-se nos bairros Taboleiro e Monte Alegre e identificou 150 terrenos baldios com problemas, além de recolher 92 pneus e 37 televisores (CAMBORIÚ, 2021), o que confirma o descarte inadequado de materiais específicos. O ecoponto municipal recebe pneus, baterias, eletrodomésticos e eletroeletrônicos, e pilhas e lâmpadas devem ser levadas ao comércio que as vende (CAMBORIÚ, 2017). Nas fontes oficiais consultadas não foi encontrado ponto de entrega de óleo de cozinha.
+
+Estudos em outros municípios catarinenses mostram o mesmo padrão. Em Iomerê, 79 residências responderam a um questionário, e os autores concluem que os moradores apoiam a coleta seletiva, mas faltam conhecimento sobre o gerenciamento dos resíduos e ações de educação ambiental (CAMPOS; BORGA; SARTOREL, 2017). Em Lebon Régis, 60,2% dos entrevistados descartam o óleo de cozinha na pia ou em outros lugares (SOUZA; CAMPOS; BORGA, 2017). Em um condomínio de São José, 75% dos moradores dizem usar óleo de cozinha e 58% o guardam em garrafa PET, mas ele acaba no lixo orgânico por não haver onde descartá-lo corretamente (COLOMBO, 2022).
+
 **Decomposição do problema (pensamento computacional):** (i) falta de informação clara sobre o que e como separar; (ii) desconhecimento dos dias da coleta; (iii) ausência de pontos de descarte conhecidos para resíduos especiais; (iv) baixo engajamento da população mais jovem.
 
 **Engenharia de requisitos:** os requisitos foram levantados a partir de observação e entrevistas com moradores e estão consolidados em requisitos funcionais, não funcionais e regras de negócio, que orientam os critérios de aceite e os testes.
 
 ## Definição Clara do Objetivo
 
-O objetivo geral é desenvolver um aplicativo móvel para Android e iOS, orientado a testes, que informe aos moradores do bairro Monte Alegre os dias de coleta seletiva e comum do seu setor, indique pontos de descarte de materiais especiais com filtro por material e oriente a separação correta dos resíduos, mesmo sem internet.
+O objetivo geral é desenvolver um aplicativo móvel para Android e iOS, orientado a testes, que informe aos moradores do Vale do Itajaí os dias de coleta seletiva e comum do seu município e setor, indique pontos de descarte de materiais especiais com filtro por material e oriente a separação correta dos resíduos, mesmo sem internet. O bairro Monte Alegre é o caso piloto, validado com moradores.
 
-Os objetivos específicos são: definir regras de negócio testáveis; implementar o módulo compartilhado com testes unitários e de integração; automatizar os testes na integração contínua; e validar a versão mínima com moradores.
+Os objetivos específicos são: definir regras de negócio testáveis; projetar o aplicativo para que municípios, setores, dias de coleta e pontos de descarte sejam dados cadastrados, sem alterar o código para incluir um novo município; implementar o módulo compartilhado com testes unitários e de integração; automatizar os testes na integração contínua; e validar a versão mínima com moradores.
 
 ## Delimitação do Escopo
 
@@ -32,11 +36,12 @@ O escopo é uma versão mínima funcional (MVP), o que deixa claro o que será e
 
 **Incluído no escopo:**
 
-- **Endereço/setor:** o morador escolhe seu setor de coleta, restrito ao bairro Monte Alegre, e o app o guarda no aparelho.
-- **Calendário de coleta:** dias da coleta seletiva e da coleta comum do setor, com regra de feriado (a coleta não tem horário fixo).
+- **Município e setor:** o morador escolhe o município e o setor (bairro) de coleta entre os cadastrados, e o app guarda a escolha no aparelho. O MVP traz o piloto Monte Alegre e pelo menos mais um município, para demonstrar a cobertura regional.
+- **Calendário de coleta:** dias da coleta seletiva e da coleta comum do setor, com regra de feriado (a coleta não tem horário fixo de passagem).
 - **Lembrete:** notificação na véspera da coleta, em horário escolhido pelo usuário (item de menor prioridade).
-- **Pontos de descarte:** lista por tipo de material (pilhas, óleo, eletrônicos, roupas), com filtro por material e localização do ponto, em dados de demonstração.
+- **Pontos de descarte:** lista do município por tipo de material (pilhas, óleo, eletrônicos, roupas), com filtro por material e localização do ponto, em dados de demonstração.
 - **Guia de separação:** busca por item com a orientação de descarte, disponível sem internet.
+- **Dados cadastráveis:** municípios, setores, dias de coleta e pontos ficam em dados locais; incluir um município não exige alterar o código.
 - Armazenamento local, testes unitários, de integração e de interface em cada funcionalidade, para Android e iOS.
 
 **Excluído do escopo:**
@@ -46,7 +51,7 @@ O escopo é uma versão mínima funcional (MVP), o que deixa claro o que será e
 - Validação do descarte por foto com inteligência artificial e check-in por QR Code ou GPS.
 - Painel administrativo para cadastro de pontos e cronogramas e relato de problemas com foto.
 - Rastreamento em tempo real dos caminhões, notificações por servidor e funcionalidades de comunicação (chat, fórum).
-- Cobertura de outros bairros.
+- Cobertura automática de todos os municípios do Vale do Itajaí: o MVP cadastra um conjunto inicial, e os demais entram por cadastro de dados.
 
 Como restrição, a equipe não dispõe de computador Mac; os testes de iOS serão executados em simulador, na integração contínua em nuvem, abordagem autorizada pelo professor.
 
@@ -56,9 +61,9 @@ Os principais envolvidos, com seu papel, interesse, nível de poder e de interes
 
 | Stakeholder | Papel no projeto | Interesse principal | Poder | Interesse | Estratégia de engajamento |
 |---|---|---|---|---|---|
-| Moradores do bairro Monte Alegre | Usuários finais do aplicativo | Saber os dias de coleta, onde descartar e como separar | Baixo | Alto | Manter informados e envolvidos: validação com moradores e canal de sugestões |
-| Prefeitura / órgão de gestão ambiental | Responsável pela gestão de resíduos e pela coleta seletiva | Aumentar a reciclagem, promover educação ambiental e reduzir custos | Alto | Alto | Gerenciar de perto: apresentar o projeto e os dados do bairro |
-| Empresa de coleta | Executa a coleta e define os dias | Eficiência da operação e dados da comunidade | Alto | Médio | Manter satisfeita: validar os dias de coleta usados no app |
+| Moradores do Vale do Itajaí (piloto: bairro Monte Alegre) | Usuários finais do aplicativo | Saber os dias de coleta, onde descartar e como separar | Baixo | Alto | Manter informados e envolvidos: validação com moradores e canal de sugestões |
+| Prefeituras e órgãos de gestão ambiental dos municípios | Responsáveis pela gestão de resíduos e pela coleta seletiva | Aumentar a reciclagem, promover educação ambiental e reduzir custos | Alto | Alto | Gerenciar de perto: apresentar o projeto e conferir dias de coleta e pontos |
+| Empresas de coleta | Executam a coleta e definem os dias | Eficiência da operação e dados da comunidade | Alto | Médio | Manter satisfeitas: validar os dias de coleta usados no app |
 | Comerciantes do bairro | Potenciais parceiros em evoluções futuras | Aproximar clientes e associar a marca à sustentabilidade | Médio | Médio | Manter informados sobre os resultados do MVP |
 | Equipe do projeto e professor | Desenvolvem, avaliam e orientam | Entregar um aplicativo testado e documentado | Alto | Alto | Reuniões de sprint e entregas por etapa |
 
@@ -68,7 +73,7 @@ Os principais envolvidos, com seu papel, interesse, nível de poder e de interes
 
 As atividades seguem o ciclo do desenvolvimento orientado a testes: escrever o teste, vê-lo falhar, implementar o código mínimo, refatorar e executar os testes de regressão. As principais atividades são:
 
-- **Levantamento de requisitos:** reuso da pesquisa de campo do HOW IV, conferência dos dias de coleta e dos pontos de descarte.
+- **Levantamento de requisitos:** reuso da pesquisa de campo do HOW IV e conferência dos dias de coleta e dos pontos de descarte de cada município cadastrado.
 - **Especificação de testes:** critérios de aceite escritos antes da implementação de cada funcionalidade.
 - **Desenvolvimento:** regras de negócio no módulo compartilhado, armazenamento local e telas.
 - **Refatoração:** melhoria do código mantendo os testes aprovados.
@@ -93,6 +98,7 @@ As métricas de sucesso permitem avaliar se o projeto atinge seus objetivos:
 
 - **Cobertura de testes:** 70% ou mais no código das regras de negócio.
 - **Integração contínua:** testes aprovados a cada alteração enviada ao repositório.
+- **Alcance regional:** 2 ou mais municípios cadastrados no MVP, incluindo o piloto Monte Alegre.
 - **Adoção:** 10 ou mais moradores testando a versão mínima.
 - **Satisfação:** nota média de usabilidade igual ou superior a 4 em uma escala de 1 a 5.
 - **Efeito esperado:** aumento do percentual de moradores que sabem os dias de coleta e os pontos de descarte, medido antes e depois do uso.
@@ -104,8 +110,8 @@ O trabalho usa sprints de duração fixa de duas semanas. As datas da Etapa 2 s�
 | Sprint | Período | Release | Entrega |
 |---|---|---|---|
 | Sprint 1 | 12/10 a 25/10 | Release 1 | Relatório e vídeo da Etapa 1, escopo, Scrum configurado e ambiente de desenvolvimento |
-| Sprint 2 | 26/10 a 08/11 | Release 2 | Base do aplicativo, endereço/setor e calendário de coleta, com testes |
-| Sprint 3 | 09/11 a 22/11 | Release 2 | Pontos de descarte com filtro e localização, com testes de interface |
+| Sprint 2 | 26/10 a 08/11 | Release 2 | Base do aplicativo, município e setor, e calendário de coleta, com testes |
+| Sprint 3 | 09/11 a 22/11 | Release 2 | Pontos de descarte do município com filtro e localização, com testes de interface |
 | Sprint 4 | 23/11 a 06/12 | Release 2 | Guia de separação, lembrete, validação, relatório e vídeo da Etapa 2 |
 
 > Tabela 2 – Cronograma por sprint. Fonte: elaborado pelos autores (2026).

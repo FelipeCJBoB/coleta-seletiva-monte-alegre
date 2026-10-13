@@ -1,8 +1,8 @@
-# Coleta Seletiva Monte Alegre
+# Coleta Seletiva Vale do Itajaí
 
-Aplicativo móvel (Android e iOS) para ajudar os moradores do bairro **Monte Alegre, Itajaí/SC** a saber quando passa a coleta, onde descartar materiais específicos (pilhas, óleo de cozinha, eletrônicos) e como separar o lixo.
+Aplicativo móvel (Android e iOS) para ajudar moradores do **Vale do Itajaí/SC** a saber quando passa a coleta, onde descartar materiais específicos (pilhas, óleo de cozinha, eletrônicos) e como separar o lixo. O bairro **Monte Alegre** é o caso piloto da pesquisa de campo.
 
-Projeto da disciplina **HOW VIII** (Análise e Desenvolvimento de Sistemas, UNIVALI). Continua o trabalho de pesquisa de campo feito no HOW IV, agora com desenvolvimento orientado a testes (TDD) e Scrum.
+Projeto da disciplina **HOW VIII** (Análise e Desenvolvimento de Sistemas, UNIVALI). Continua o trabalho de pesquisa de campo feito no HOW IV, que ficou limitado ao Monte Alegre e deixou a expansão como fase futura. Aqui essa fase entra no escopo, como cobertura regional por dados, e o desenvolvimento passa a ser orientado a testes (TDD) com Scrum.
 
 ## Status
 
@@ -13,11 +13,11 @@ Projeto da disciplina **HOW VIII** (Análise e Desenvolvimento de Sistemas, UNIV
 
 ## O que o app faz (MVP)
 
-1. **Calendário de coleta** do endereço/setor do morador, com lembrete.
-2. **Pontos de descarte** por tipo de material, com filtro.
+1. **Calendário de coleta** do município e setor do morador, com lembrete.
+2. **Pontos de descarte** do município por tipo de material, com filtro.
 3. **Guia de separação** pesquisável e disponível offline.
 
-Detalhes e o que ficou de fora: [docs/ESCOPO.md](docs/ESCOPO.md).
+Detalhes: [docs/ESCOPO.md](docs/ESCOPO.md). O que o app não vai conter, para reavaliação: [docs/FORA-DO-ESCOPO.md](docs/FORA-DO-ESCOPO.md).
 
 ## Como o time trabalha
 

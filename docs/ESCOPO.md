@@ -2,19 +2,25 @@
 
 Recorte aprovado pelo grupo a partir do projeto do HOW IV. A coluna "HOW IV" mostra de onde cada item vem, para o relatório e os testes ficarem rastreáveis.
 
+## Narrativa: do HOW IV ao HOW VIII
+
+- **HOW IV:** pesquisa de campo no bairro **Monte Alegre**, tratado como piloto. A expansão geográfica ficou registrada como exclusão ("fase futura").
+- **HOW VIII:** a fase futura entra no escopo como **cobertura regional por dados**: o app atende o **Vale do Itajaí**, com municípios, setores, dias de coleta e pontos cadastrados como dados. O Monte Alegre continua sendo o caso piloto validado com moradores.
+- **Por que dados e não código:** dias de coleta e pontos variam por município (e até por bairro). Isso é testável: o teste cadastra um município novo e confere o calendário sem alterar o código.
+
 ## Problema
 
-Moradores do Monte Alegre não sabem os dias da coleta (principalmente os mais jovens), descartam pilhas e óleo de cozinha no lixo comum ou na pia, não separam orgânico de reciclável e não conhecem pontos de descarte para materiais específicos.
+Moradores não sabem os dias da coleta (principalmente os mais jovens), descartam pilhas e óleo de cozinha no lixo comum ou na pia, não separam orgânico de reciclável e não conhecem pontos de descarte para materiais específicos. A pesquisa de campo (HOW IV) e as fontes públicas levantadas ([PESQUISA.md](PESQUISA.md)) apontam o mesmo padrão.
 
 ## Requisitos funcionais do MVP
 
 | ID | Requisito | HOW IV | Prioridade |
 |---|---|---|---|
-| RF01 | O usuário escolhe seu endereço/setor de coleta e o app o guarda no aparelho | RF1 | Alta |
+| RF01 | O usuário escolhe o município e o setor (bairro) de coleta entre os cadastrados e o app guarda a escolha no aparelho | RF1 (generalizado) | Alta |
 | RF02 | O app lembra o usuário (notificação) na véspera da coleta, em horário escolhido por ele | RF2 | Baixa (primeiro a sair se faltar tempo) |
 | RF03 | O app mostra calendário com os dias das coletas seletiva e comum do setor (a coleta não tem horário fixo) | RF3 | Alta |
-| RF04 | O app lista os pontos de descarte e mostra, para cada um, endereço, horário e materiais aceitos | RF5 | Alta |
-| RF05 | O app permite ver a localização do ponto no mapa (começa por coordenadas e abertura no app de mapas) | RF5 | Média |
+| RF04 | O app lista os pontos de descarte do município e mostra, para cada um, endereço, horário e materiais aceitos | RF5 | Alta |
+| RF05 | O app permite ver a localização do ponto (começa por coordenadas e abertura no app de mapas) | RF5 | Média |
 | RF06 | Os pontos são categorizados por tipo de material (pilhas, óleo, eletrônicos, roupas) | RF6 | Alta |
 | RF07 | O usuário filtra os pontos por tipo de material | RF7 | Alta |
 | RF08 | O app oferece guia de separação pesquisável (ex.: "caixa de leite") com a orientação de descarte | RF10, RF11 | Alta |
@@ -27,31 +33,31 @@ Moradores do Monte Alegre não sabem os dias da coleta (principalmente os mais j
 | RNF02 | Funcionar em Android 9 ou superior e iOS 14 ou superior | RNF4 |
 | RNF03 | O guia de separação funciona sem internet | RNF6 |
 | RNF04 | A lista de pontos aparece em até 3 segundos em rede 4G | RNF1 |
+| RNF05 | Incluir um município, setor ou ponto exige apenas cadastrar dados, sem alterar o código (novo, da cobertura regional) | novo |
 
 ## Regras de negócio mantidas
 
 | ID | Regra | HOW IV |
 |---|---|---|
-| RN01 | Coleta seletiva às terças e quintas, sem horário fixo de passagem do caminhão | RN1 (horário removido, ver D-01) |
-| RN02 | Coleta comum às segundas, quartas e sextas, sem horário fixo de passagem | RN2 (horário removido, ver D-01) |
+| RN01 | Os dias da coleta seletiva vêm do cadastro do setor; não há horário fixo de passagem do caminhão. Piloto Monte Alegre: terças-feiras, segundo a Prefeitura de Camboriú (2023) | RN1 (horário removido, D-01) |
+| RN02 | Os dias da coleta comum vêm do cadastro do setor, também sem horário fixo | RN2 (horário removido, D-01) |
 | RN03 | Em feriados nacionais não há coleta; ela passa para o próximo dia útil | RN3 |
-| RN04 | Pilhas, baterias e óleo de cozinha usado só vão para pontos de descarte, nunca para a coleta porta a porta | RN6 |
-| RN05 | Os pontos seguem seus horários de funcionamento (seg a sex, 9h às 17h; sábado, 9h às 12h) | RN7 |
-| RN06 | Eletrônicos aceitos nos pontos do bairro: até 5 kg | RN8 |
-| RN07 | O serviço atende somente endereços dentro do bairro Monte Alegre | RN9 |
-| RN08 | O endereço do usuário fica só no aparelho e não é exibido ou compartilhado | RN11 |
+| RN04 | Pilhas, baterias e óleo de cozinha usado só vão para pontos de descarte ou comércio, nunca para a coleta porta a porta | RN6 |
+| RN05 | Cada ponto de descarte informa o seu horário de funcionamento e os materiais aceitos (com limites, ex.: eletrônicos até 5 kg) | RN7, RN8 |
+| RN06 | O serviço atende somente municípios e setores cadastrados nos dados do app | RN9 (generalizado) |
+| RN07 | O município e o setor do usuário ficam só no aparelho e não são exibidos ou compartilhados | RN11 |
 
 As regras RN4 (responsabilidade pela separação) e RN5 (horário para colocar o lixo na calçada) do HOW IV viram **conteúdo do guia**, não regra de sistema.
 
-## Fora do escopo (decidido)
-
-Pontuação por ações, marketplace de recompensas, ranking e competições, validação de descarte por foto com IA, check-in por QR Code ou GPS, backoffice administrativo (cadastro de pontos e cronogramas pelo app), relato de problemas com foto, notificações push via servidor, cobertura fora do Monte Alegre.
-
-Esses itens continuam no relatório como visão de evolução, não como compromisso.
-
 ## Dados do app
 
-Os pontos de descarte e o conteúdo do guia são **dados de demonstração fictícios**, identificados como tal no app e no relatório (decisão D-04). O app não coleta dados pessoais de terceiros.
+Municípios, setores, dias de coleta, pontos e itens do guia são **dados de demonstração**, identificados como tal no app e no relatório (decisão D-04). O piloto Monte Alegre usa como referência a fonte oficial da Prefeitura de Camboriú (2023); os demais municípios do MVP são fictícios. O MVP cadastra o piloto e pelo menos mais um município.
+
+## Fora do escopo (decidido)
+
+Pontuação por ações, marketplace de recompensas, ranking e competições, validação de descarte por foto com IA, check-in por QR Code ou GPS, backoffice administrativo, relato de problemas com foto, notificações push via servidor, cobertura automática de todos os municípios do Vale (os demais entram por cadastro de dados).
+
+A lista completa, com esforço e recomendação para o grupo reavaliar, está em [FORA-DO-ESCOPO.md](FORA-DO-ESCOPO.md).
 
 ## Casos de uso (apoio aos testes)
 
@@ -59,7 +65,7 @@ Não são uma seção exigida na Etapa 2 do HOW VIII (lá o foco é aplicação,
 
 | ID | Caso de uso | Ator |
 |---|---|---|
-| CU01 | Definir endereço/setor | Morador |
+| CU01 | Escolher município e setor | Morador |
 | CU02 | Consultar calendário de coleta | Morador |
 | CU03 | Consultar pontos de descarte (com filtro) | Morador |
 | CU04 | Consultar guia de separação | Morador |

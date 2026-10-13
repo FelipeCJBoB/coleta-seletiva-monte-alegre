@@ -36,10 +36,10 @@ O Scrum foi adotado por sua natureza iterativa e incremental, que permite adapta
 | PB03 | Como professor, quero um vídeo de até 3 minutos da Etapa 1 | 1 | 1 | 8 |
 | PB04 | Como time, quero product backlog, releases e sprints configurados no Trello, com prints | 1 | 1 | 5 |
 | PB05 | Como time de desenvolvimento, quero o ambiente e o repositório prontos em todos | 1 | 1 | 5 |
-| PB06 | Como time, quero a base do app (arquitetura, banco local e integração contínua) | 2 | 2 | 8 |
-| PB07 | Como morador, quero escolher meu endereço/setor | 2 | 2 | 3 |
-| PB08 | Como morador, quero ver o calendário de coleta do meu setor | 2 | 2 | 5 |
-| PB09 | Como morador, quero ver pontos de descarte e filtrar por material | 2 | 3 | 8 |
+| PB06 | Como time, quero a base do app (arquitetura, banco local com municípios e setores como dados, e integração contínua) | 2 | 2 | 8 |
+| PB07 | Como morador, quero escolher meu município e setor de coleta | 2 | 2 | 3 |
+| PB08 | Como morador, quero ver o calendário de coleta do meu município e setor | 2 | 2 | 5 |
+| PB09 | Como morador, quero ver os pontos de descarte do meu município e filtrar por material | 2 | 3 | 8 |
 | PB10 | Como morador, quero ver onde fica o ponto de descarte | 2 | 3 | 3 |
 | PB11 | Como morador, quero buscar no guia de separação, mesmo sem internet | 2 | 4 | 8 |
 | PB12 | Como morador, quero ser lembrado na véspera da coleta | 2 | 4 | 5 |
