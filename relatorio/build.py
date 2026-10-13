@@ -121,7 +121,13 @@ def build(template, out, sections, autores):
         clear_runs(el)
         para = docx.text.paragraph.Paragraph(el, doc._body)
         para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        para.add_run().add_picture(path, width=Cm(15.5))
+        # cabe na página: no máximo 15,5 cm de largura e 15 cm de altura
+        from struct import unpack
+        with open(path, "rb") as fh:
+            head = fh.read(24)
+        w_px, h_px = unpack(">II", head[16:24])  # PNG
+        width_cm = min(15.5, 15.0 * w_px / h_px)
+        para.add_run().add_picture(path, width=Cm(width_cm))
         return el
 
     def table(rows):

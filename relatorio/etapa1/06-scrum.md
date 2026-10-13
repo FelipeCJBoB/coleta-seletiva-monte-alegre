@@ -59,15 +59,21 @@ O objetivo da Sprint 1 (12/10 a 25/10) é concluir e validar o relatório, o ví
 
 | Item (PB) | Tarefa | Responsável | Status |
 |---|---|---|---|
-| PB01 | Revisar o escopo (seção 4.1) e escrever os critérios de aceite | Integrante 2 (Product Owner) | [[atualizar]] |
-| PB02 | Redigir as seções 1 a 3, 8 e 9 e revisar a formatação | Integrante 3 (Redator) | [[atualizar]] |
-| PB02 | Montar o PDF único e enviar | Integrante 1 (Scrum Master) | [[atualizar]] |
-| PB03 | Roteiro, gravação, edição e publicação do vídeo | Integrante 4 (Editor) | [[atualizar]] |
-| PB04 | Configurar o quadro no Trello, escrever a seção 6 e tirar os prints | Integrante 1 (Scrum Master) | [[atualizar]] |
-| PB05 | Ambiente, repositório e primeiro teste (TDD) | Integrante 5 (Time de Desenvolvimento) | [[atualizar]] |
+| PB01 | Revisar o escopo (seção 4.1) e escrever os critérios de aceite | Integrante 2 (Product Owner) | Concluído |
+| PB02 | Redigir as seções 1 a 3, 8 e 9 e revisar a formatação | Integrante 3 (Redator) | Concluído |
+| PB02 | Montar o PDF único e enviar | Integrante 1 (Scrum Master) | Concluído |
+| PB03 | Roteiro, gravação, edição e publicação do vídeo | Integrante 4 (Editor) | Concluído |
+| PB04 | Configurar o quadro no Trello, escrever a seção 6 e tirar os prints | Integrante 1 (Scrum Master) | Concluído |
+| PB05 | Ambiente, repositório e primeiro teste (TDD) | Integrante 5 (Time de Desenvolvimento) | Concluído |
 
 > Tabela 6 – Sprint backlog da Sprint 1. Fonte: elaborado pelos autores (2026).
 
-[[INSERIR CAPTURA DE TELA: colunas Product Backlog, Releases e Sprints do quadro do Trello]]
+A Figura 1 mostra as listas Product Backlog (PB01 a PB15), Releases e Sprints do quadro, com etiquetas de release e de sprint. A Figura 2 mostra o sprint backlog da Sprint 1, dividido em uma coluna por integrante para a Etapa 1.
 
-[[INSERIR CAPTURA DE TELA: colunas Integrante 1 a 5 (Etapa 1) com os cartões da Sprint 1]]
+![Quadro do Trello: Product Backlog, Releases e Sprints](figuras/trello-1-backlog-releases-sprints.png)
+
+> Figura 1 – Quadro do Trello: Product Backlog, Releases e Sprints. Fonte: elaborado pelos autores (2026).
+
+![Quadro do Trello: colunas por integrante, Etapa 1](figuras/trello-2-integrantes-etapa1.png)
+
+> Figura 2 – Quadro do Trello: sprint backlog da Etapa 1, por integrante. Fonte: elaborado pelos autores (2026).

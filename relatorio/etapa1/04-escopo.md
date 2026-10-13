@@ -48,7 +48,7 @@ O escopo é uma versão mínima funcional (MVP), o que deixa claro o que será e
 - Rastreamento em tempo real dos caminhões, notificações por servidor e funcionalidades de comunicação (chat, fórum).
 - Cobertura de outros bairros.
 
-Como restrição, a equipe não dispõe de computador Mac; os testes de iOS serão executados em simulador, na integração contínua em nuvem, e esse ponto será confirmado com o professor [[registrar resposta]].
+Como restrição, a equipe não dispõe de computador Mac; os testes de iOS serão executados em simulador, na integração contínua em nuvem, abordagem autorizada pelo professor.
 
 ## Identificação dos Stakeholders da Comunidade
 
