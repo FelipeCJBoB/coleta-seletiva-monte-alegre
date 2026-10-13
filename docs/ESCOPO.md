@@ -42,7 +42,7 @@ Moradores não sabem os dias da coleta (principalmente os mais jovens), descarta
 
 | ID | Regra | HOW IV |
 |---|---|---|
-| RN01 | Os dias da coleta seletiva vêm do cadastro do setor; não há horário fixo de passagem do caminhão. Piloto Monte Alegre: terças-feiras, segundo a Prefeitura de Camboriú (2023) | RN1 (horário removido, D-01) |
+| RN01 | Os dias da coleta seletiva vêm do cadastro do setor; não há horário fixo de passagem do caminhão. Exemplo de dado: em Camboriú, terça-feira para Monte Alegre, Santa Regina e Toca (Prefeitura de Camboriú, 2023) | RN1 (horário removido, D-01) |
 | RN02 | Os dias da coleta comum vêm do cadastro do setor, também sem horário fixo | RN2 (horário removido, D-01) |
 | RN03 | Em feriados nacionais não há coleta; ela passa para o próximo dia útil | RN3 |
 | RN04 | Pilhas, baterias e óleo de cozinha usado só vão para pontos de descarte ou comércio, nunca para a coleta porta a porta | RN6 |
@@ -56,7 +56,7 @@ As regras RN4 (responsabilidade pela separação) e RN5 (horário para colocar o
 
 ## Dados do app
 
-Municípios, setores, dias de coleta, pontos e itens do guia são **dados de demonstração**, identificados como tal no app e no relatório (decisão D-04). O piloto Monte Alegre usa como referência a fonte oficial da Prefeitura de Camboriú (2023); os demais municípios do MVP são fictícios. O MVP cadastra o piloto e pelo menos mais um município.
+Municípios, setores, dias de coleta, pontos e itens do guia são **dados de demonstração**, identificados como tal no app e no relatório (decisão D-04). Os valores de exemplo se inspiram em fontes públicas da região ([PESQUISA.md](PESQUISA.md)); os registros do app são fictícios. O MVP cadastra o piloto e pelo menos mais um município.
 
 ## Fora do escopo (decidido)
 

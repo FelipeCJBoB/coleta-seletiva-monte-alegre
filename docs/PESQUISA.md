@@ -1,51 +1,69 @@
-# Levantamento de fatos e dados (fontes secundárias)
+# Levantamento de fatos, dados e relatos (Vale do Itajaí)
 
-Complementa a pesquisa de campo do HOW IV (observação e entrevistas no Monte Alegre). Estas fontes **não foram coletadas por nós**: são dados e relatos publicados por terceiros. No relatório elas devem aparecer como tal ("segundo...", com citação), nunca como se fossem entrevistas nossas.
+Complementa a pesquisa de campo do HOW IV (observação e entrevistas no Monte Alegre). Como não será possível fazer novas consultas diretas, a prova de conceito e o 4.1.1 usam **análise documental**: matérias com relatos de moradores, comunicados oficiais e estudos publicados sobre a coleta seletiva na região.
 
-Consulta feita em 13/10/2026. Onde não consegui ler a fonte completa, está marcado.
+Regras de uso:
+- Essas fontes são de terceiros. No relatório aparecem como tal ("segundo...", com citação), nunca como entrevistas do grupo.
+- Consulta feita em 13/10/2026. A coluna "Verificado" indica se a página foi aberta e lida (sim) ou se só aparece em resumo de busca (não).
+- Dados antigos aparecem com a data para o leitor poder julgar.
 
-## 1. Município do bairro (decisão: escopo regional)
+## 1. Itajaí
 
-Nas buscas, o único bairro **Monte Alegre** da região que apareceu em fontes oficiais é o de **Camboriú/SC**; não encontrei Monte Alegre em Itajaí. Para não depender disso, o escopo passou a ser o **Vale do Itajaí**, com o Monte Alegre como caso piloto (veja [ESCOPO.md](ESCOPO.md)). No relatório, o parágrafo que usa as fontes de Camboriú traz um aviso amarelo para o grupo confirmar que é o bairro da pesquisa do HOW IV.
-
-## 2. Camboriú (fontes oficiais da Prefeitura)
-
-| # | Fonte | Fato | Serve para |
+| # | Fonte | Fato | Verificado |
 |---|---|---|---|
-| C1 | Prefeitura de Camboriú, 06/03/2023, "Coleta seletiva de Camboriú já recolheu mais de 60 toneladas de lixo reciclável em 2023" | Coleta seletiva a cargo da Secretaria de Saneamento Básico (SESB), por empresa contratada, de segunda a sexta, manhã e tarde. **Cada bairro tem uma coleta por semana. Terça-feira: Monte Alegre, Santa Regina e Toca.** Mais de 60 t recolhidas em 2023 (até a data). Dúvidas: (47) 3365-6733. Materiais aceitos: plástico, vidro, papel e metal | 4.1.1, RN01, RF03, guia |
-| C2 | Prefeitura de Camboriú, 30/01/2021, "Força-tarefa contra mosquito da dengue teve participação de mais de 100 pessoas" | Ações concentradas em **Taboleiro (59) e Monte Alegre (20)**, bairros com mais registros de focos. 150 terrenos baldios com problemas (sem cerca, drenagem ou limpeza). Foram recolhidos 92 pneus e 37 televisores | 4.1.1 (descarte inadequado em terrenos) |
-| C3 | Prefeitura de Camboriú, 14/03/2017, "Ecoponto é o local indicado para descarte de materiais" | Ecoponto na Rua Rio Pardo (Rio Pequeno), seg a sex, 8h às 18h: pneus, baterias, eletrodomésticos e eletroeletrônicos. **Pilhas e lâmpadas devem ser levadas ao comércio que as vende** (logística reversa). Fucam: (47) 3365-2311 | pontos de descarte, RN04, RN05 |
-| C4 | Prefeitura de Camboriú, 22/06/2023, "Paço Municipal recebe a instalação de ecoponto de coleta de eletrônicos" | Coletores de eletrônicos no Paço Municipal (R. Getúlio Vargas, 77), Secretaria de Educação (R. José Francisco Bernardes, 429) e Fucam (R. Cel. Benjamin Vieira, 456); parceira weee.do | pontos de descarte |
+| I1 | DIARINHO (Redação), 17/01/2024, "Coleta seletiva tem contrato milionário não fiscalizado" | **Relatos de moradores** de São Vicente, Fazenda, Vila Operária, São João e Ressacada: o caminhão nem sempre passa no dia previsto; na rua Expedicionário Marquetti (Fazenda) a família mistura reciclável e orgânico por falta de espaço para guardar; na Ressacada, lixo acumulado, "moscas e mau cheiro". A empresa (Ambiental) diz não ter registros de queixas e atribui os problemas à **desinformação** sobre a mudança de horário (de 8h para 6h em vários bairros). Coleta: uma vez por semana nas residências e duas nos condomínios; quase 700 t entre dez/2022 e fev/2023 | sim |
+| I2 | DIARINHO, 11/02/2022, "Itajaí encerra reforço da coleta de recicláveis nesta sexta" | Mais de 420 t recolhidas de nov. a jan. (dezembro: 173,79 t); depois do reforço, uma passagem por semana nas residências e duas nos condomínios; dúvidas pelo programa Recicla Itajaí (WhatsApp, telefone, e-mail) | sim |
+| I3 | Portal do TRT12 (socioambiental), página atualizada em 01/04/2025, "Coleta e reciclagem" | Ecopontos de Itajaí: Av. Mario Uriarte, 98 (Cordeiros) e Av. Min. Victor Konder, 303 (Centro), com o INIS. Não lista ponto de óleo na região | sim |
 
-**Lacuna encontrada:** nas fontes oficiais consultadas não há ponto de entrega de **óleo de cozinha** em Camboriú. Isso reforça o problema (todos os entrevistados no HOW IV desconheciam onde descartar). Os dados de C3 e C4 podem estar desatualizados; confirme por telefone antes de usar no app.
+## 2. Blumenau
 
-**Divergência a resolver:** o HOW IV tem a RN1 "coleta seletiva às terças e quintas". A fonte C1 mostra **somente terça** para o Monte Alegre. Ajustar `docs/ESCOPO.md` (RN01) para o que o grupo confirmar.
-
-## 3. Estudos e dados de Santa Catarina (percepção dos moradores)
-
-| # | Referência | Dados verificados | Serve para |
+| # | Fonte | Fato | Verificado |
 |---|---|---|---|
-| S1 | CAMPOS, R. F. F. de; BORGA, T.; SARTOREL, A. Percepção dos moradores sobre a implantação de um sistema de coleta seletiva no município de Iomerê, Santa Catarina, Brasil. **Revista Brasileira de Geografia Física**, v. 10, n. 5, 2017 | 79 residências (20% das economias do município), questionário de 10 perguntas. Moradores apoiam a coleta seletiva, mas faltam conhecimento sobre o gerenciamento dos resíduos e educação ambiental | 3 (prova de conceito), 4.1.1 |
-| S2 | SOUZA, M. L. de; CAMPOS, R. F. F. de; BORGA, T. Educação ambiental: um estudo exploratório no bairro Abraão dos Santos Maciel do município de Lebon Régis (SC). **Revista Professare**, Caçador, v. 6, n. 1, p. 31-44, 2017 | 99,5% acham o meio ambiente importante; do óleo de cozinha, **39,8% armazenam e 60,2% descartam na pia ou em outros lugares**. Concluem que muitos não separam para reciclagem e que faltam educação ambiental e coleta seletiva | 4.1.1, prova de conceito |
-| S3 | COLOMBO, C. C. **Reciclagem de lixo e descarte de óleo de cozinha como ferramenta de educação ambiental não formal**: um estudo de caso em um condomínio em São José-SC. 2022. TCC (Especialização) - IFSC, Campus São José | 95% já separam seco e úmido; 75% usam óleo de cozinha e 58% o guardam em garrafa PET, mas ele acaba indo para o lixo orgânico por falta de local de entrega; 87,5% não conhecem outro condomínio que faça diferente | 4.1.1, prova de conceito |
+| B1 | INFORME BLUMENAU (Fernando Krieger), 23/09/2020, "Levantamento aponta que 45% do lixo reciclável coletado em Blumenau é contaminado" | A cooperativa recebe cerca de 700 t/mês de recicláveis; cerca de 315 t (45%) não são recicladas e vão ao aterro. Rejeitos orgânicos vêm misturados nas residências e nos contêineres (azul = seletiva, verde = comum). Custo de R$ 194 por tonelada não aproveitada. O Samae orienta que eletrônicos, lâmpadas, pilhas, baterias e pneus não vão na seletiva e devem voltar ao local de compra, e que seletiva e comum passam em dias diferentes. **Relato:** um leitor perguntou nos comentários se lâmpadas, pilhas, pneus e isopor também deveriam ser recolhidos pelo Samae | sim |
+| B2 | VALE MAIS NOTÍCIA, 25/09/2020, "Separação incorreta contamina 45% do lixo reciclável de Blumenau" | Confirma 700 t e 315 t (45%); cerca de R$ 61 mil por mês; "muitas pessoas não observam as cores dos contêineres" | sim |
+| B3 | Samae/Prefeitura de Blumenau: questionário do PMGIRS sobre coleta e descarte (Farol Blumenau) | Pesquisa pública com moradores sobre separação, acesso à coleta e descarte de móveis, entulho e eletrônicos. Resultados não encontrados | **não** (página bloqueada ao robô) |
 
-## 4. Dados nacionais e normas
+## 3. Balneário Camboriú
 
-| # | Fonte | Dado | Observação |
+| # | Fonte | Fato | Verificado |
 |---|---|---|---|
-| N1 | CEMPRE. **Pesquisa Ciclosoft 2018** | 1.227 municípios (cerca de 22%) com programas de coleta seletiva; cerca de 35 milhões de pessoas atendidas (17%) | li em resumo de busca; abrir o PDF do CEMPRE para citar páginas |
-| N2 | BRASIL. **Lei nº 12.305/2010** (PNRS) e **CONAMA nº 401/2008** | Logística reversa: o comércio deve receber pilhas e baterias dos consumidores | norma, não percentual |
-| N3 | Prefeitura de São José dos Campos, 09/09/2026, "Ecopontos ampliam logística reversa de óleo e eletrônicos" | Repete a estimativa de que 1 litro de óleo pode contaminar até 25 mil litros de água | estimativa atribuída à Sabesp; não achei o documento original, citar como "estimativa" |
+| BC1 | PÁGINA 3, 07/02/2022, "ReciclaBC bateu em janeiro o recorde..." | 440,67 t em janeiro, 69% acima do mesmo mês do ano anterior. O caminhão passa em todos os endereços ao menos uma vez por semana; reciclável só deve ser colocado na rua no dia da passagem; lâmpadas, pilhas, baterias e eletrônicos voltam ao local de compra; PEV na Av. Santa Catarina, 801 | sim |
 
-## 5. O que não foi possível obter
+## 4. Camboriú (prefeitura)
 
-- **Relatos de moradores de Camboriú** (matérias ou postagens) sobre coleta seletiva ou descarte no Monte Alegre: não encontrei em jornais ou em sites indexados. Postagens de redes sociais (grupos de bairro) não aparecem em buscas. Se o grupo conseguir 3 a 5 postagens públicas, cite como "relatos em redes sociais", com data e link.
-- Número de entrevistados e período da pesquisa do HOW IV: só o grupo sabe.
-- Reportagem do Sul21 sobre moradores que não sabem os dias de coleta em Porto Alegre: a página não abriu, por isso **não** está nesta lista.
+| # | Fonte | Fato | Verificado |
+|---|---|---|---|
+| C1 | Prefeitura de Camboriú, 06/03/2023 | Cada bairro tem uma coleta seletiva por semana; **terça-feira: Monte Alegre, Santa Regina e Toca**; mais de 60 t em 2023; contato (47) 3365-6733 | sim |
+| C2 | Prefeitura de Camboriú, 30/01/2021 | Ação contra a dengue em Taboleiro e Monte Alegre: 150 terrenos baldios com problemas, 92 pneus e 37 televisores recolhidos | sim |
+| C3 | Prefeitura de Camboriú, 14/03/2017 | Ecoponto no Rio Pequeno (pneus, baterias, eletrodomésticos, eletroeletrônicos); pilhas e lâmpadas vão ao comércio | sim (2017) |
+| C4 | Prefeitura de Camboriú, 22/06/2023 | Coletores de eletrônicos no Paço, na Secretaria de Educação e na Fucam | sim |
 
-## 6. Como entra no relatório (proposta, depende da confirmação do município)
+## 5. Região e Santa Catarina (óleo de cozinha e percepção)
 
-- **4.1.1 Compreensão do problema:** novo parágrafo "Dados e relatos de fontes públicas", com C1 a C3 e S1 a S3, separando claramente o que é pesquisa nossa (HOW IV) do que é fonte de terceiros.
-- **3 Prova de conceito:** usar S1 a S3 como evidência de que o problema é recorrente e de que a informação (dias, pontos, guia) é a lacuna.
-- **9 Referências:** incluir C1 a C4, S1 a S3, N1 e N2 em ABNT, com data de acesso 13/10/2026.
-- **Etapa 2:** C1, C3 e C4 podem alimentar os dados do app (calendário e pontos), hoje definidos como fictícios (D-04).
+| # | Fonte | Fato | Verificado |
+|---|---|---|---|
+| R1 | Tribunal de Justiça de SC, "Descarte de óleo de cozinha" (sem data) | Blumenau e Gaspar: pontos do programa Papaolito. A página não lista pontos para Itajaí, Balneário Camboriú, Brusque e Navegantes | sim |
+| R2 | CAMPOS; BORGA; SARTOREL (2017), Iomerê/SC | 79 residências: apoiam a coleta seletiva, mas faltam conhecimento sobre o gerenciamento dos resíduos e educação ambiental | sim (resumo) |
+| R3 | SOUZA; CAMPOS; BORGA (2017), Lebon Régis/SC | 60,2% descartam o óleo na pia ou em outros lugares | sim |
+| R4 | COLOMBO (2022), São José/SC | 75% usam óleo; 58% o guardam em garrafa PET, mas ele acaba no lixo orgânico por não ter onde descartar | sim |
+
+## 6. Dados nacionais
+
+| # | Fonte | Fato | Verificado |
+|---|---|---|---|
+| N1 | CONKE; NASCIMENTO (2018), *urbe*, v. 10, n. 1 | A coleta seletiva ocorre em cerca de 41% dos municípios e recolhe cerca de 10% do que é potencialmente reciclável | sim (resumo) |
+| N2 | IDEC, 25/03/2011 (enquete online voluntária) | Cerca de 32% não sabem destinar corretamente o lixo; 31,1% sentem falta de informação. Não representa a população | sim (amostra não informada) |
+
+## 7. Lacunas
+
+- **Relatos diretos de moradores** só apareceram para Itajaí (I1) e como pergunta de leitor em Blumenau (B1). Para Balneário Camboriú, Navegantes, Gaspar, Brusque e Indaial não encontrei relatos em jornais ou sites oficiais.
+- **Calendário por bairro de Itajaí:** a página da prefeitura não apareceu nas buscas; o contato é o programa Recicla Itajaí (I2).
+- **NSC Total, Farol Blumenau e Brazilian Journals** bloquearam a leitura automática; o que veio de resumo de busca não está usado no relatório.
+- Postagens de redes sociais não são indexadas. Se o grupo juntar 3 a 5 postagens públicas, podem entrar como "relatos em redes sociais", com data e link.
+
+## 8. Onde entra no relatório
+
+- **4.1.1:** parágrafos por município (Itajaí, Blumenau, Balneário Camboriú, Camboriú), mais a síntese do óleo e do contexto nacional.
+- **3 Prova de conceito:** análise documental no lugar de novas consultas (sem número de entrevistados).
+- **9 Referências:** I1, I2, B1, BC1, C1, C2, C3, R1 a R4 e N1, em ABNT, acesso em 13/10/2026.
+- **Etapa 2:** I1 e B1 sustentam o calendário e o guia (a mistura de materiais e a confusão de dias são o problema); C1, I3, BC1 e R1 inspiram os dados de demonstração.
