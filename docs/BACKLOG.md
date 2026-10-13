@@ -24,9 +24,13 @@ Prioridade: 1 é a mais alta. Pontos em escala de Fibonacci.
 | PB09 | Como morador, quero ver os pontos de descarte do meu município e filtrar por material (RF04, RF06, RF07) | 3 | 2 | 8 |
 | PB10 | Como morador, quero ver onde fica o ponto de descarte (RF05) | 3 | 3 | 3 |
 | PB11 | Como morador, quero buscar no guia de separação, mesmo sem internet (RF08) | 4 | 2 | 8 |
+| PB16 | Como morador, quero registrar meus descartes e acumular pontos, com saldo e histórico (RF09, RF10) | 3 | 2 | 8 |
+| PB17 | Como morador, quero ver dicas de reciclagem (RF11) | 4 | 3 | 2 |
 | PB12 | Como morador, quero ser lembrado na véspera da coleta (RF02) | 4 | 4 | 5 |
 | PB13 | Como time, quero testes escritos antes do código em todas as funcionalidades (TDD) | 2 a 4 | 1 | 13 |
 | PB14 | Como time, quero validar o app com roteiro de teste e usuários | 4 | 2 | 5 |
 | PB15 | Como time, quero a Etapa 2 documentada (5.1.1 a 5.1.4, seção 6, 7.2, conclusão) e o vídeo | 4 | 1 | 8 |
+
+PB16 e PB17 voltaram ao escopo por decisão do grupo (veja [FORA-DO-ESCOPO.md](FORA-DO-ESCOPO.md)).
 
 Se faltar tempo, o primeiro item a sair é o PB12 (lembrete).

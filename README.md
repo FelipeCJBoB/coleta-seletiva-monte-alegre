@@ -16,6 +16,8 @@ Projeto da disciplina **HOW VIII** (Análise e Desenvolvimento de Sistemas, UNIV
 1. **Calendário de coleta** do município e setor do morador, com lembrete.
 2. **Pontos de descarte** do município por tipo de material, com filtro.
 3. **Guia de separação** pesquisável e disponível offline.
+4. **Pontuação simples** por descarte registrado, com saldo e histórico.
+5. **Dicas de reciclagem**.
 
 Detalhes: [docs/ESCOPO.md](docs/ESCOPO.md). O que o app não vai conter, para reavaliação: [docs/FORA-DO-ESCOPO.md](docs/FORA-DO-ESCOPO.md).
 

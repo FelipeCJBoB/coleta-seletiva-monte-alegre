@@ -43,6 +43,8 @@ O Scrum foi adotado por sua natureza iterativa e incremental, que permite adapta
 | PB10 | Como morador, quero ver onde fica o ponto de descarte | 2 | 3 | 3 |
 | PB11 | Como morador, quero buscar no guia de separação, mesmo sem internet | 2 | 4 | 8 |
 | PB12 | Como morador, quero ser lembrado na véspera da coleta | 2 | 4 | 5 |
+| PB16 | Como morador, quero registrar meus descartes e acumular pontos, com saldo e histórico | 2 | 3 | 8 |
+| PB17 | Como morador, quero ver dicas de reciclagem | 2 | 4 | 2 |
 | PB13 | Como time, quero testes escritos antes do código em todas as funcionalidades | 2 | 2 a 4 | 13 |
 | PB14 | Como time, quero validar o app com roteiro de teste e usuários | 2 | 4 | 5 |
 | PB15 | Como time, quero a Etapa 2 documentada e o vídeo de até 3 minutos | 2 | 4 | 8 |
@@ -51,7 +53,7 @@ O Scrum foi adotado por sua natureza iterativa e incremental, que permite adapta
 
 **Releases**
 
-A Release 1 corresponde à Etapa 1 (relatório, vídeo e Scrum configurado, itens PB01 a PB05). A Release 2 corresponde à Etapa 2 (aplicativo testado, validação, relatório e vídeo, itens PB06 a PB15).
+A Release 1 corresponde à Etapa 1 (relatório, vídeo e Scrum configurado, itens PB01 a PB05). A Release 2 corresponde à Etapa 2 (aplicativo testado, validação, relatório e vídeo, itens PB06 a PB17).
 
 **Sprint 1**
 

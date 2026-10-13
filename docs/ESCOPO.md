@@ -20,10 +20,13 @@ Moradores não sabem os dias da coleta (principalmente os mais jovens), descarta
 | RF02 | O app lembra o usuário (notificação) na véspera da coleta, em horário escolhido por ele | RF2 | Baixa (primeiro a sair se faltar tempo) |
 | RF03 | O app mostra calendário com os dias das coletas seletiva e comum do setor (a coleta não tem horário fixo) | RF3 | Alta |
 | RF04 | O app lista os pontos de descarte do município e mostra, para cada um, endereço, horário e materiais aceitos | RF5 | Alta |
-| RF05 | O app permite ver a localização do ponto (começa por coordenadas e abertura no app de mapas) | RF5 | Média |
+| RF05 | O app mostra a localização do ponto (coordenadas) e permite abrir a rota no app de mapas do aparelho | RF5, RF8 | Média |
 | RF06 | Os pontos são categorizados por tipo de material (pilhas, óleo, eletrônicos, roupas) | RF6 | Alta |
 | RF07 | O usuário filtra os pontos por tipo de material | RF7 | Alta |
 | RF08 | O app oferece guia de separação pesquisável (ex.: "caixa de leite") com a orientação de descarte | RF10, RF11 | Alta |
+| RF09 | O usuário registra um descarte informando o tipo de material, e o app credita pontos conforme o tipo, respeitando o limite diário | pontuação (RN002, RN006) | Média |
+| RF10 | O app mostra o saldo de pontos e o histórico de descartes registrados | feedback visual | Média |
+| RF11 | O app exibe dicas de reciclagem e informações ambientais | RF14 | Baixa |
 
 ## Requisitos não funcionais mantidos
 
@@ -46,6 +49,8 @@ Moradores não sabem os dias da coleta (principalmente os mais jovens), descarta
 | RN05 | Cada ponto de descarte informa o seu horário de funcionamento e os materiais aceitos (com limites, ex.: eletrônicos até 5 kg) | RN7, RN8 |
 | RN06 | O serviço atende somente municípios e setores cadastrados nos dados do app | RN9 (generalizado) |
 | RN07 | O município e o setor do usuário ficam só no aparelho e não são exibidos ou compartilhados | RN11 |
+| RN08 | Cada registro de descarte vale pontos conforme o tipo de material. Valores iniciais (ajustáveis nos dados): papel, plástico, metal e vidro = 5; pilhas, baterias e óleo de cozinha = 10; eletrônicos = 15 | RN002 |
+| RN09 | Cada usuário pode registrar no máximo 3 descartes por dia; acima disso o app avisa e não credita pontos | RN006 |
 
 As regras RN4 (responsabilidade pela separação) e RN5 (horário para colocar o lixo na calçada) do HOW IV viram **conteúdo do guia**, não regra de sistema.
 
@@ -55,9 +60,11 @@ Municípios, setores, dias de coleta, pontos e itens do guia são **dados de dem
 
 ## Fora do escopo (decidido)
 
-Pontuação por ações, marketplace de recompensas, ranking e competições, validação de descarte por foto com IA, check-in por QR Code ou GPS, backoffice administrativo, relato de problemas com foto, notificações push via servidor, cobertura automática de todos os municípios do Vale (os demais entram por cadastro de dados).
+Marketplace de recompensas, ranking e competições, validação automática do descarte (foto com IA, QR Code ou GPS), backoffice administrativo, relato de problemas com foto, notificações push via servidor, cobertura automática de todos os municípios do Vale (os demais entram por cadastro de dados).
 
-A lista completa, com esforço e recomendação para o grupo reavaliar, está em [FORA-DO-ESCOPO.md](FORA-DO-ESCOPO.md).
+A lista completa, com esforço e o que o grupo aprovou trazer de volta (pontuação simples, histórico e dicas), está em [FORA-DO-ESCOPO.md](FORA-DO-ESCOPO.md).
+
+**Limitação assumida:** sem QR Code, GPS ou foto, o registro de descarte é **autodeclarado**. O app confia no usuário e usa o limite diário (RN09) como contenção; a validação automática é evolução futura.
 
 ## Casos de uso (apoio aos testes)
 
@@ -70,5 +77,8 @@ Não são uma seção exigida na Etapa 2 do HOW VIII (lá o foco é aplicação,
 | CU03 | Consultar pontos de descarte (com filtro) | Morador |
 | CU04 | Consultar guia de separação | Morador |
 | CU05 | Configurar lembrete de coleta | Morador |
+| CU06 | Registrar descarte | Morador |
+| CU07 | Consultar saldo e histórico de pontos | Morador |
+| CU08 | Ver dicas de reciclagem | Morador |
 
 Como os dados ficam no aparelho e não há administração pelo app, o único ator é o **Morador**. O Parceiro Comercial e o Administrador do HOW IV saem junto com o marketplace e o backoffice.

@@ -73,8 +73,8 @@ Todos somos Time de Desenvolvimento quando o app começar: cada um assume uma fu
 | Sprint | Datas | Objetivo |
 |---|---|---|
 | 2 | 26/10 a 08/11 | Base da arquitetura, dados locais, **calendário de coleta** com testes |
-| 3 | 09/11 a 22/11 | **Pontos de descarte** com filtro por material, testes |
-| 4 | 23/11 a 06/12 | **Guia de separação**, lembrete, validação, relatório e vídeo da Etapa 2 |
+| 3 | 09/11 a 22/11 | **Pontos de descarte** com filtro por material, **pontuação simples e histórico**, testes |
+| 4 | 23/11 a 06/12 | **Guia de separação**, dicas, lembrete, validação, relatório e vídeo da Etapa 2 |
 
 Se o professor marcar a Etapa 2 para antes disso, as sprints 3 e 4 são comprimidas e o lembrete (RF02) sai primeiro.
 
@@ -85,7 +85,8 @@ Donos das funcionalidades (sempre em dupla com o Integrante 5, porque ninguém n
 | Base, dados locais, CI | 5 | todos |
 | Calendário e município/setor | 2 | 5 |
 | Pontos de descarte e filtro | 4 | 5 |
-| Guia de separação | 3 | 5 |
+| Pontuação simples e histórico | 1 | 5 |
+| Guia de separação e dicas de reciclagem | 3 | 5 |
 | Testes de interface e evidências para o relatório | 1 | 5 |
 
 ## 5. Como trabalhamos
@@ -119,7 +120,8 @@ Donos das funcionalidades (sempre em dupla com o Integrante 5, porque ninguém n
 | D-03 | **Onde fica o relatório mestre** | **decidido:** no Git, pasta `relatorio/` |
 | D-04 | **Dados de demonstração** de ecopontos | **decidido:** fictícios, marcados como tal (confirmar com o professor, Integrante 1) |
 | D-05 | **Alcance geográfico** | **decidido:** Vale do Itajaí, por dados cadastrados (município e setor); Monte Alegre é o piloto. Ver `docs/ESCOPO.md` |
-| D-06 | **O que trazer de volta do HOW IV** (pontuação, dicas etc.) | **aberto:** o grupo reavalia `docs/FORA-DO-ESCOPO.md` |
-| R-01 | Ninguém tem Mac: iOS só roda via CI (macOS) e simulador. Confirmar aceitação com o professor | aberto, Integrante 1 |
+| D-06 | **O que trazer de volta do HOW IV** | **decidido (grupo):** pontuação simples com histórico (PB16), dicas de reciclagem (PB17) e rota no app de mapas (RF05). O resto segue fora |
+| R-01 | Ninguém tem Mac: iOS só roda via CI (macOS) e simulador. **autorizado pelo professor** | aberto, Integrante 1 |
 | R-02 | Todos novos em mobile: o ambiente leva mais tempo que o previsto. Mitigação: instalar já nesta semana | em curso |
 | R-03 | Lembrete (RF02) exige permissão de notificação e agendamento no aparelho; é o item mais arriscado do MVP | aceito, é o primeiro a sair se faltar tempo |
+| R-04 | Pontuação **autodeclarada** (sem QR, GPS ou foto): o usuário pode registrar descartes que não fez. Mitigação: limite de 3 por dia (RN09) e dizer isso no relatório | aceito |

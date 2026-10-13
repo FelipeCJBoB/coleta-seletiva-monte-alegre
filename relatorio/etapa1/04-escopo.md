@@ -26,7 +26,7 @@ Estudos em outros municípios catarinenses mostram o mesmo padrão. Em Iomerê, 
 
 ## Definição Clara do Objetivo
 
-O objetivo geral é desenvolver um aplicativo móvel para Android e iOS, orientado a testes, que informe aos moradores do Vale do Itajaí os dias de coleta seletiva e comum do seu município e setor, indique pontos de descarte de materiais especiais com filtro por material e oriente a separação correta dos resíduos, mesmo sem internet. O bairro Monte Alegre é o caso piloto, validado com moradores.
+O objetivo geral é desenvolver um aplicativo móvel para Android e iOS, orientado a testes, que informe aos moradores do Vale do Itajaí os dias de coleta seletiva e comum do seu município e setor, indique pontos de descarte de materiais especiais com filtro por material, oriente a separação correta dos resíduos, mesmo sem internet, e incentive o descarte correto com uma pontuação simples. O bairro Monte Alegre é o caso piloto, validado com moradores.
 
 Os objetivos específicos são: definir regras de negócio testáveis; projetar o aplicativo para que municípios, setores, dias de coleta e pontos de descarte sejam dados cadastrados, sem alterar o código para incluir um novo município; implementar o módulo compartilhado com testes unitários e de integração; automatizar os testes na integração contínua; e validar a versão mínima com moradores.
 
@@ -41,14 +41,16 @@ O escopo é uma versão mínima funcional (MVP), o que deixa claro o que será e
 - **Lembrete:** notificação na véspera da coleta, em horário escolhido pelo usuário (item de menor prioridade).
 - **Pontos de descarte:** lista do município por tipo de material (pilhas, óleo, eletrônicos, roupas), com filtro por material e localização do ponto, em dados de demonstração.
 - **Guia de separação:** busca por item com a orientação de descarte, disponível sem internet.
+- **Pontuação simples e histórico:** o morador registra um descarte pelo tipo de material e recebe pontos conforme o tipo, com limite diário; o app mostra saldo e histórico.
+- **Dicas de reciclagem:** conteúdo informativo exibido no app.
 - **Dados cadastráveis:** municípios, setores, dias de coleta e pontos ficam em dados locais; incluir um município não exige alterar o código.
 - Armazenamento local, testes unitários, de integração e de interface em cada funcionalidade, para Android e iOS.
 
 **Excluído do escopo:**
 
-- Pontuação por ações, ranking e competições entre ruas ou condomínios.
+- Ranking e competições entre ruas ou condomínios.
 - Marketplace de recompensas e parcerias com o comércio local.
-- Validação do descarte por foto com inteligência artificial e check-in por QR Code ou GPS.
+- Validação automática do descarte (foto com inteligência artificial, QR Code ou GPS): a pontuação é autodeclarada e limitada por dia.
 - Painel administrativo para cadastro de pontos e cronogramas e relato de problemas com foto.
 - Rastreamento em tempo real dos caminhões, notificações por servidor e funcionalidades de comunicação (chat, fórum).
 - Cobertura automática de todos os municípios do Vale do Itajaí: o MVP cadastra um conjunto inicial, e os demais entram por cadastro de dados.
@@ -111,8 +113,8 @@ O trabalho usa sprints de duração fixa de duas semanas. As datas da Etapa 2 s�
 |---|---|---|---|
 | Sprint 1 | 12/10 a 25/10 | Release 1 | Relatório e vídeo da Etapa 1, escopo, Scrum configurado e ambiente de desenvolvimento |
 | Sprint 2 | 26/10 a 08/11 | Release 2 | Base do aplicativo, município e setor, e calendário de coleta, com testes |
-| Sprint 3 | 09/11 a 22/11 | Release 2 | Pontos de descarte do município com filtro e localização, com testes de interface |
-| Sprint 4 | 23/11 a 06/12 | Release 2 | Guia de separação, lembrete, validação, relatório e vídeo da Etapa 2 |
+| Sprint 3 | 09/11 a 22/11 | Release 2 | Pontos de descarte do município com filtro e localização, pontuação simples e histórico, com testes de interface |
+| Sprint 4 | 23/11 a 06/12 | Release 2 | Guia de separação, dicas de reciclagem, lembrete, validação, relatório e vídeo da Etapa 2 |
 
 > Tabela 2 – Cronograma por sprint. Fonte: elaborado pelos autores (2026).
 
