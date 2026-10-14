@@ -124,3 +124,71 @@ Sufixo comum para manter o mesmo estilo: `photorealistic, natural light, 35mm le
 | C. Agradecimento formal | "Agradecemos a atenção e ficamos à disposição para avaliação e feedback." | Tom acadêmico | Genérico; pouca informação nova |
 
 Evitar: pedidos de teste, de apoio, de divulgação ou qualquer convite a terceiros.
+
+## 9. Produção no Google Flow (modo Agente)
+
+Estudo feito em 13/10/2026 com a ajuda do Flow e as notas de lançamento do Google. Valores de crédito vêm de fontes de terceiros e devem ser conferidos na caixa de prompt do Flow antes de gerar.
+
+### O que o Flow (modo Agente) faz e o que não faz
+
+| Necessidade do vídeo | O Flow resolve? | Observação |
+|---|---|---|
+| Imagens foto-realistas 16:9 | Sim | Nano Banana 2.1 (padrão do Agente), com imagens de referência |
+| Clipes curtos animados a partir das imagens | Sim | Gemini Omni Flash 1.1 (4, 6, 8 ou 10 s) ou Veo 3.1 Lite, Fast e Quality (4, 6 ou 8 s) |
+| Juntar e cortar clipes | Sim | Scenebuilder: ordenar, cortar com as alças, pré-visualizar e baixar a cena |
+| Planejar cenas e variações | Sim | O Agente monta storyboard, gera variações e organiza em Collections |
+| Narração gravada pelo Integrante 4 | **Não documentado** | A página de modelos só cita "voz personalizada" (voz predefinida gerada pelo modelo); não há upload de áudio próprio documentado |
+| Legendas e texto na tela | **Não documentado** | Não há ferramenta de texto ou legenda na página de edição; texto gerado dentro do vídeo é pouco confiável, ainda mais em português |
+| Prints reais do Trello | Parcial | Podem entrar como mídia, mas o modelo pode deformar a interface; melhor manter como imagem estática no editor |
+| Duração total de 2:15 a 2:50 | Sim, em partes | Cada clipe tem até 10 s; o total sai da montagem |
+
+**Conclusão:** o Flow pode produzir **toda a trilha visual** do vídeo. Narração e legendas ficam fora dele (ou exigem teste), então o fluxo recomendado é **híbrido**: visual no Flow, voz, legendas e prints no editor.
+
+### Configurações recomendadas (Agente > Configurações)
+
+| Item | Valor | Por quê |
+|---|---|---|
+| Confirmar antes de gerar | **Sempre** | Mostra a estimativa de crédito antes de cada geração |
+| Imagens | 16:9, **x1**, Nano Banana 2.1 | x2 gera e cobra duas imagens por pedido |
+| Vídeo | 16:9, **x1**, Omni 1.1 Flash | Padrão do Agente; Veo 3.1 Lite só para estender clipes de 8 s |
+| Resolução do clipe | Rascunho 360p, depois ampliar | O Omni 360p custa metade do 720p, e assinantes Pro ampliam de 360p para 720p sem custo de crédito |
+
+### Instruções do agente (colar em "Instruções para o agente")
+
+1. `Projeto: vídeo narrado de até 3 minutos sobre o trabalho acadêmico Coleta Seletiva Vale do Itajaí (HOW VIII, Univali). Formato 16:9. Estilo foto-realista, luz natural, cores neutras com verde como acento. Cenários do Vale do Itajaí, Santa Catarina, Brasil.`
+2. `Nunca gerar texto, letras, números, logotipos, marcas d'água nem interfaces de aplicativo dentro das imagens ou dos vídeos. Telas de celular devem aparecer em branco. Sem pessoas reais identificáveis. Sem fala e sem música: a narração é gravada à parte.`
+3. `Antes de gerar, informar o custo estimado e pedir confirmação. Para vídeo, gerar primeiro em rascunho 360p e uma saída por vez.`
+
+### Passo a passo
+
+| # | Passo | Resultado |
+|---|---|---|
+| 1 | Criar o projeto "HOW VIII Vídeo Etapa 1", ativar o **Agente** e ajustar as configurações acima | Projeto pronto |
+| 2 | Colar as instruções do agente | Estilo consistente |
+| 3 | **Teste barato:** 1 imagem (A1) e 1 clipe de 4 s em 360p; conferir o custo mostrado e perguntar ao Agente se ele cria legendas em português | Custo real e limites confirmados |
+| 4 | Gerar as imagens A1 a A6 (prompts da seção 4) e guardar em uma Collection "Cenas" | 6 imagens aprovadas |
+| 5 | Animar só as cenas que precisam de movimento (sugestão: 1, 3 e 8) com clipes de 4 a 6 s | 3 clipes |
+| 6 | Montar e cortar no Scenebuilder, na ordem do roteiro, e baixar | Trilha visual |
+| 7 | No editor: narração do Integrante 4, zoom nos prints do Trello, textos com as fontes, legendas pt-BR | Vídeo final |
+| 8 | Exportar em 1080p, publicar como Não listado e colocar o link nas seções 7.1 e no envio | Link |
+
+### Movimento sugerido por cena (para o Agente)
+
+| Cena | Movimento do clipe |
+|---|---|
+| 1 | Câmera avança devagar na rua; a mulher olha o celular e depois as lixeiras |
+| 3 | Câmera desliza sobre a pia com pilhas e óleo; corte para o lixo misturado |
+| 8 | Câmera circula lentamente a mesa dos estudantes |
+
+### Custo estimado (verificar no Flow)
+
+- Fontes de terceiros: Omni Flash cerca de 12 créditos por clipe de 8 s em 720p, e metade em 360p; Veo 3.1 Lite 10, Fast 20, Quality 100 créditos. O Flow dá 50 créditos por dia a qualquer conta.
+- Com 3 clipes em rascunho 360p, o gasto fica na casa de algumas dezenas de créditos; as imagens são o custo menor.
+- **Não confirmei** quantos créditos mensais o plano PRO inclui nem o preço das imagens do Nano Banana 2.1: anote o que o Agente mostrar no passo 3.
+
+### Riscos
+
+- **Texto e interface gerados:** o modelo erra letras. Todo texto entra no editor.
+- **Voz gerada:** se o grupo quiser narração pelo Flow, a voz é predefinida e pode variar entre clipes; para manter a voz humana combinada, grave à parte.
+- **Cota diária do Agente:** existe, mas o valor não é informado pelo Google.
+- **Recursos por região:** edição e extensão de vídeos enviados variam por país.
