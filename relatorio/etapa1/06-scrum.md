@@ -56,7 +56,7 @@ O Scrum foi adotado por sua natureza iterativa e incremental, que permite adapta
 | PB16 | Como morador, quero registrar meus descartes e acumular pontos, com saldo e histórico | 2 | 3 | 8 |
 | PB17 | Como morador, quero ver dicas de reciclagem | 2 | 4 | 2 |
 | PB13 | Como time, quero testes escritos antes do código em todas as funcionalidades | 2 | 2 a 4 | 13 |
-| PB14 | Como time, quero validar o app com roteiro de teste e usuários | 2 | 4 | 5 |
+| PB14 | Como time, quero validar o app com um roteiro de testes executado pelo grupo | 2 | 4 | 5 |
 | PB15 | Como time, quero a Etapa 2 documentada e o vídeo de até 3 minutos | 2 | 4 | 8 |
 
 > Tabela 6 – Product backlog. Fonte: elaborado pelos autores (2026).
@@ -88,7 +88,7 @@ As atividades da Etapa 2 já estão planejadas no quadro e seguem o mesmo ciclo 
 |---|---|---|---|---|
 | Sprint 2 | 26/10 a 08/11 | Base do aplicativo e calendário de coleta, com testes | PB06, PB07, PB08, PB13 | Arquitetura, banco local e integração contínua (Integrante 5); município/setor e calendário (Integrante 2); plano de testes e ferramentas (Integrante 1) |
 | Sprint 3 | 09/11 a 22/11 | Pontos de descarte, localização e pontuação simples | PB09, PB10, PB16, PB13 | Pontos e filtro por material (Integrante 4); pontuação e histórico (Integrante 1, com Integrante 5); testes de interface |
-| Sprint 4 | 23/11 a 06/12 | Guia, dicas, lembrete, validação, relatório e vídeo da Etapa 2 | PB11, PB12, PB14, PB15, PB17 | Guia e dicas (Integrante 3); lembrete (Integrante 5); validação com usuários e PDF único (Integrante 1); vídeo (Integrante 4) |
+| Sprint 4 | 23/11 a 06/12 | Guia, dicas, lembrete, validação, relatório e vídeo da Etapa 2 | PB11, PB12, PB14, PB15, PB17 | Guia e dicas (Integrante 3); lembrete (Integrante 5); validação pelo grupo e PDF único (Integrante 1); vídeo (Integrante 4) |
 
 > Tabela 8 – Atividades planejadas para a Etapa 2. Fonte: elaborado pelos autores (2026).
 

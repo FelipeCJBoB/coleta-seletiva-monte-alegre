@@ -36,7 +36,7 @@ Os relatos e os dados apontam dois padrões: o morador não sabe quando passa ca
 
 O objetivo geral é desenvolver um aplicativo móvel para Android e iOS, orientado a testes, que informe aos moradores do Vale do Itajaí os dias de coleta seletiva e comum do seu município e setor, indique pontos de descarte de materiais especiais com filtro por material, oriente a separação correta dos resíduos, mesmo sem internet, e incentive o descarte correto com uma pontuação simples.
 
-Os objetivos específicos são: definir regras de negócio testáveis; projetar o aplicativo para que municípios, setores, dias de coleta e pontos de descarte sejam dados cadastrados, sem alterar o código para incluir um novo município; implementar o módulo compartilhado com testes unitários e de integração; automatizar os testes na integração contínua; e validar a versão mínima com moradores.
+Os objetivos específicos são: definir regras de negócio testáveis; projetar o aplicativo para que municípios, setores, dias de coleta e pontos de descarte sejam dados cadastrados, sem alterar o código para incluir um novo município; implementar o módulo compartilhado com testes unitários e de integração; automatizar os testes na integração contínua; e validar a versão mínima com um roteiro de testes executado pelo próprio grupo.
 
 ## Delimitação do Escopo
 
@@ -73,7 +73,7 @@ Os principais envolvidos, com seu papel, interesse, nível de poder e de interes
 
 | Stakeholder | Papel no projeto | Interesse principal | Poder | Interesse | Estratégia de engajamento |
 |---|---|---|---|---|---|
-| Moradores do Vale do Itajaí | Usuários finais do aplicativo | Saber os dias de coleta, onde descartar e como separar | Baixo | Alto | Manter informados e envolvidos: validação com moradores e canal de sugestões |
+| Moradores do Vale do Itajaí | Usuários finais do aplicativo | Saber os dias de coleta, onde descartar e como separar | Baixo | Alto | Considerar as necessidades levantadas na pesquisa de campo e nas fontes públicas; não há testes com moradores nesta disciplina |
 | Prefeituras e órgãos de gestão ambiental dos municípios | Responsáveis pela gestão de resíduos e pela coleta seletiva | Aumentar a reciclagem, promover educação ambiental e reduzir custos | Alto | Alto | Gerenciar de perto: apresentar o projeto e conferir dias de coleta e pontos |
 | Empresas de coleta | Executam a coleta e definem os dias | Eficiência da operação e dados da comunidade | Alto | Médio | Manter satisfeitas: validar os dias de coleta usados no app |
 | Cooperativas de catadores, lideranças comunitárias e ONGs locais | Triam os recicláveis e ajudam a divulgar o uso do aplicativo (ex.: Cooperfoz e Reciclavale, em Itajaí) | Receber material limpo e separado, com condições de trabalho adequadas | Médio | Alto | Manter informados: orientar a separação correta pelo guia e abrir canal de sugestões |
@@ -91,7 +91,7 @@ As atividades seguem o ciclo do desenvolvimento orientado a testes: escrever o t
 - **Desenvolvimento:** regras de negócio no módulo compartilhado, armazenamento local e telas.
 - **Refatoração:** melhoria do código mantendo os testes aprovados.
 - **Testes de integração e de interface:** repositório local, cenário sem internet e testes de tela no Android e no iOS.
-- **Validação:** teste de usabilidade com moradores e ajustes finais.
+- **Validação:** teste de aceitação conduzido pelo grupo, com roteiro de testes e registro dos resultados, e ajustes finais.
 
 ## Ferramentas de Desenvolvimento e Teste
 
@@ -112,9 +112,9 @@ As métricas de sucesso permitem avaliar se o projeto atinge seus objetivos:
 - **Cobertura de testes:** 70% ou mais no código das regras de negócio.
 - **Integração contínua:** testes aprovados a cada alteração enviada ao repositório.
 - **Alcance regional:** 2 ou mais municípios do Vale do Itajaí cadastrados no MVP.
-- **Adoção:** 10 ou mais moradores testando a versão mínima.
-- **Satisfação:** nota média de usabilidade igual ou superior a 4 em uma escala de 1 a 5.
-- **Efeito esperado:** aumento do percentual de moradores que sabem os dias de coleta e os pontos de descarte, medido antes e depois do uso.
+- **Validação:** todos os critérios de aceite do MVP executados pelo grupo em um roteiro de testes, com resultado registrado.
+- **Usabilidade:** nota média igual ou superior a 4, em uma escala de 1 a 5, dada pelos integrantes ao fim do roteiro de testes.
+- **Efeito esperado:** a redução do desconhecimento dos dias de coleta e dos pontos de descarte só poderá ser medida em um piloto com moradores, previsto como trabalho futuro.
 
 ## Cronograma e Recursos
 

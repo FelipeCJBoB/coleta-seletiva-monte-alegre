@@ -14,7 +14,7 @@ Formato definido pelo grupo: **um único integrante** produz o vídeo (Integrant
 | Segmentação | Dividir em blocos curtos | 8 cenas de 12 a 30 s, uma ideia por cena |
 | Personalização (Mayer) | Tom conversacional e voz humana aprendem melhor que voz formal ou robótica | Texto em primeira pessoa do plural, falado pelo próprio integrante (sem voz sintética) |
 | Estrutura | O template pede: introdução, problema, solução, diferenciais, resultados e chamada para ação | As 8 cenas seguem essa ordem |
-| Ritmo da fala | Cerca de 140 a 150 palavras por minuto para explicadores; escrever 10% abaixo do limite e testar lendo em voz alta | Roteiro com 287 palavras, o que dá cerca de 2:05 de fala mais pausas |
+| Ritmo da fala | Cerca de 140 a 150 palavras por minuto para explicadores; escrever 10% abaixo do limite e testar lendo em voz alta | Roteiro com 303 palavras, o que dá cerca de 2:10 de fala mais pausas |
 | Legendas | Netflix (pt-BR): no máximo 42 caracteres por linha, até 2 linhas. Velocidade de leitura: valores de 17 a 19 caracteres por segundo aparecem em fóruns, não confirmados | 42 caracteres por linha, 2 linhas, e até 17 caracteres por segundo para ficar seguro |
 
 Fontes: Guo, Kim e Rubin (2014, L@S); Mayer (2008, *American Psychologist*) e resumos universitários de seus princípios; Netflix, *Brazilian Portuguese Timed Text Style Guide*; guias de produtores de vídeo sobre palavras por minuto. As taxas de fala vêm de estúdios e blogs, não de norma: testar com a voz real.
@@ -29,7 +29,7 @@ Fontes: Guo, Kim e Rubin (2014, L@S); Mayer (2008, *American Psychologist*) e re
 | 4 | O diferencial: cobertura regional por dados e TDD | Template: "diferenciais"; é o que distingue o projeto do HOW IV |
 | 5 | Resultados da Etapa 1 | Critério 8 da avaliação: "resultados alcançados" |
 | 6 | Scrum configurado | Critério 7; mostra o Trello |
-| 7 | Etapa 2 e chamada para ação | Template: "faça seu pedido" |
+| 7 | Etapa 2 e encerramento | Template: "chame para ação", adaptado: trabalho acadêmico, sem convite a terceiros |
 
 **Ficam de fora** (coerência): lista de ferramentas, tabela de stakeholders, referências, detalhe de cada sprint, regras de negócio.
 
@@ -46,9 +46,9 @@ Falante: o próprio Integrante 4. Palavras por cena entre parênteses.
 | 5. Diferencial | 1:30 a 1:45 | "O diferencial é a abrangência regional: municípios, setores e pontos são dados cadastrados, então o aplicativo cresce para outras cidades sem reescrever o código. E tudo é desenvolvido com testes escritos antes." (32) | **A5** vista aérea de cidade do Vale; pins aparecendo no mapa (editor) |
 | 6. Resultados | 1:45 a 2:10 | "Na Etapa 1, entregamos o planejamento: o escopo da versão mínima e o que ficou de fora, os envolvidos, as atividades, as ferramentas, as métricas de sucesso e o cronograma em quatro sprints." (33) | Cartão com 6 ícones que se marcam um a um (editor, sem IA) |
 | 7. Scrum | 2:10 a 2:30 | "Configuramos o Scrum no Trello: um Product Backlog com dezessete itens, duas releases, quatro sprints e uma coluna de tarefas para cada integrante, divididas entre as duas etapas." (28) | **Prints reais do Trello** (Figuras 1 e 2 do relatório), com zoom nas listas |
-| 8. Etapa 2 e chamada | 2:30 a 2:45 | "Na Etapa 2, vamos desenvolver o aplicativo e validar com usuários. Se você mora no Vale do Itajaí, venha testar. Coleta Seletiva Vale do Itajaí: informação certa, no dia certo." (30) | **A6** vizinhos na rua, um com celular; fecha com cartão: nome do projeto e os e-mails institucionais dos 5 integrantes |
+| 8. Encerramento | 2:30 a 2:50 | "Na Etapa 2, vamos construir o aplicativo, escrever os testes antes do código e validar o resultado entre nós, com um roteiro de testes. O objetivo é que o morador saiba o dia certo e o lugar certo para cada resíduo. Coleta Seletiva Vale do Itajaí." (46) | **A6** os cinco estudantes em volta da mesa, um com o celular e os outros anotando; fecha com cartão: nome do projeto, disciplina e e-mails institucionais dos 5 integrantes |
 
-Total: 287 palavras. Se passar de 3:00 na edição, cortar a cena 6 para uma frase.
+Total: 303 palavras. Se passar de 3:00 na edição, cortar a cena 6 para uma frase.
 
 ## 4. Imagens e animações no Higgsfield
 
@@ -72,7 +72,7 @@ Sufixo comum para manter o mesmo estilo: `photorealistic, natural light, 35mm le
 | A3b | 3 | Close-up of an open trash bag with mixed organic waste, plastic bottles and cartons together, no labels visible |
 | A4 | 4 | Two hands holding a smartphone with a plain blank light-gray screen on an urban sidewalk, blurred street in the background |
 | A5 | 5 | Aerial drone photo of a river city in Santa Catarina, Brazil, with a bridge, port cranes and green hills at golden hour |
-| A6 | 8 | A group of diverse neighbors on a sunny street, smiling, one of them holding a phone, community feeling, no signs or text |
+| A6 | 8 | Five university students gathered around a table in a bright classroom, one holding a smartphone while the others take notes, testing a project together, phone screen not visible to the camera |
 
 ### Regras para as imagens
 
@@ -113,3 +113,14 @@ Sufixo comum para manter o mesmo estilo: `photorealistic, natural light, 35mm le
 | Aviso de imagens geradas por IA | Não haverá aviso |
 | Animação paga | Sem Kling. Movimento no editor e, se precisar, Google Flow (conta PRO) |
 | Quem narra | Integrante 4 |
+| Encerramento | Trabalho acadêmico: síntese, próximo passo e volta ao gancho. Sem convite a pessoas de fora e sem testes com moradores; a validação é feita pelo próprio grupo |
+
+## 8. Encerramento: opções avaliadas
+
+| Opção | Texto | Prós | Contras |
+|---|---|---|---|
+| **A. Síntese e próximo passo + volta ao gancho (adotada)** | "Na Etapa 2, vamos construir o aplicativo, escrever os testes antes do código e validar o resultado entre nós, com um roteiro de testes. O objetivo é que o morador saiba o dia certo e o lugar certo para cada resíduo. Coleta Seletiva Vale do Itajaí." | Fecha o ciclo da pergunta de abertura; diz o que vem na Etapa 2; honesta sobre a validação | Nenhum relevante |
+| B. Só síntese dos resultados | "Em resumo: definimos o escopo, mapeamos os envolvidos, planejamos quatro sprints e configuramos o Scrum. A Etapa 2 traz o aplicativo e os testes." | Curta e objetiva; ótima para o critério de resultados | Termina sem emoção; repete a cena 6 |
+| C. Agradecimento formal | "Agradecemos a atenção e ficamos à disposição para avaliação e feedback." | Tom acadêmico | Genérico; pouca informação nova |
+
+Evitar: pedidos de teste, de apoio, de divulgação ou qualquer convite a terceiros.
