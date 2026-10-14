@@ -14,7 +14,7 @@ Formato definido pelo grupo: **um único integrante** produz o vídeo (Integrant
 | Segmentação | Dividir em blocos curtos | 8 cenas de 12 a 30 s, uma ideia por cena |
 | Personalização (Mayer) | Tom conversacional e voz humana aprendem melhor que voz formal ou robótica | Texto em primeira pessoa do plural, falado pelo próprio integrante (sem voz sintética) |
 | Estrutura | O template pede: introdução, problema, solução, diferenciais, resultados e chamada para ação | As 8 cenas seguem essa ordem |
-| Ritmo da fala | Cerca de 140 a 150 palavras por minuto para explicadores; escrever 10% abaixo do limite e testar lendo em voz alta | Roteiro com 313 palavras, o que dá cerca de 2:15 de fala mais pausas |
+| Ritmo da fala | Cerca de 140 a 150 palavras por minuto para explicadores; escrever 10% abaixo do limite e testar lendo em voz alta | Roteiro com 314 palavras, o que dá cerca de 2:15 de fala mais pausas |
 | Legendas | Netflix (pt-BR): no máximo 42 caracteres por linha, até 2 linhas. Velocidade de leitura: valores de 17 a 19 caracteres por segundo aparecem em fóruns, não confirmados | 42 caracteres por linha, 2 linhas, e até 17 caracteres por segundo para ficar seguro |
 
 Fontes: Guo, Kim e Rubin (2014, L@S); Mayer (2008, *American Psychologist*) e resumos universitários de seus princípios; Netflix, *Brazilian Portuguese Timed Text Style Guide*; guias de produtores de vídeo sobre palavras por minuto. As taxas de fala vêm de estúdios e blogs, não de norma: testar com a voz real.
@@ -48,7 +48,7 @@ Falante: o próprio Integrante 4. Palavras por cena entre parênteses.
 | 7. Scrum | 2:10 a 2:30 | "Configuramos o Scrum no Trello: um Product Backlog com dezessete itens, duas releases, quatro sprints e uma coluna de tarefas para cada integrante, divididas entre as duas etapas." (28) | **Prints reais do Trello** (Figuras 1 e 2 do relatório), com zoom nas listas |
 | 8. Encerramento | 2:30 a 2:50 | "Na Etapa 2, vamos construir o aplicativo, escrever os testes antes do código e validar o resultado entre nós, com um roteiro de testes. O objetivo é que o morador saiba o dia certo e o lugar certo para cada resíduo. Coleta Seletiva Vale do Itajaí." (46) | **A6** os cinco estudantes em volta da mesa, um com o celular e os outros anotando; fecha com cartão: nome do projeto, disciplina e e-mails institucionais dos 5 integrantes |
 
-Total: 313 palavras. Se passar de 3:00 na edição, cortar a cena 6 para uma frase.
+Total: 314 palavras. Se passar de 3:00 na edição, cortar a cena 6 para uma frase.
 
 ## 4. Imagens e animações no Higgsfield
 
