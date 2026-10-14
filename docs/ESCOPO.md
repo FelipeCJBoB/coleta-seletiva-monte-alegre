@@ -36,7 +36,7 @@ Moradores não sabem os dias da coleta (principalmente os mais jovens), descarta
 | RNF01 | Chegar a calendário, pontos e guia em no máximo 2 toques a partir da tela inicial | RNF3 |
 | RNF02 | Funcionar em Android 9 ou superior e iOS 14 ou superior | RNF4 |
 | RNF03 | O guia de separação funciona sem internet | RNF6 |
-| RNF04 | A lista de pontos aparece em até 3 segundos em rede 4G | RNF1 |
+| RNF04 | A lista de pontos aparece em até 3 segundos no aparelho, com dados locais | RNF1 (adaptado: o app é local) |
 | RNF05 | Incluir um município, setor ou ponto exige apenas cadastrar dados, sem alterar o código (novo, da cobertura regional) | novo |
 
 ## Regras de negócio mantidas

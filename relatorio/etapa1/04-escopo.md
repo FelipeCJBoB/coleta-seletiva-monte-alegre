@@ -74,9 +74,9 @@ Os principais envolvidos, com seu papel, interesse, nível de poder e de interes
 | Stakeholder | Papel no projeto | Interesse principal | Poder | Interesse | Estratégia de engajamento |
 |---|---|---|---|---|---|
 | Moradores do Vale do Itajaí | Usuários finais do aplicativo | Saber os dias de coleta, onde descartar e como separar | Baixo | Alto | Considerar as necessidades levantadas na pesquisa de campo e nas fontes públicas; não há testes com moradores nesta disciplina |
-| Prefeituras e órgãos de gestão ambiental dos municípios | Responsáveis pela gestão de resíduos e pela coleta seletiva | Aumentar a reciclagem, promover educação ambiental e reduzir custos | Alto | Alto | Gerenciar de perto: apresentar o projeto e conferir dias de coleta e pontos |
-| Empresas de coleta | Executam a coleta e definem os dias | Eficiência da operação e dados da comunidade | Alto | Médio | Manter satisfeitas: validar os dias de coleta usados no app |
-| Cooperativas de catadores, lideranças comunitárias e ONGs locais | Triam os recicláveis e ajudam a divulgar o uso do aplicativo (ex.: Cooperfoz e Reciclavale, em Itajaí) | Receber material limpo e separado, com condições de trabalho adequadas | Médio | Alto | Manter informados: orientar a separação correta pelo guia e abrir canal de sugestões |
+| Prefeituras e órgãos de gestão ambiental dos municípios | Responsáveis pela gestão de resíduos e pela coleta seletiva | Aumentar a reciclagem, promover educação ambiental e reduzir custos | Alto | Alto | Fonte de dados públicos; sem contato nesta disciplina |
+| Empresas de coleta | Executam a coleta e definem os dias | Eficiência da operação e dados da comunidade | Alto | Médio | Fonte de informação pública; sem contato nesta disciplina |
+| Cooperativas de catadores, lideranças comunitárias e ONGs locais | Recebem e triam os recicláveis (ex.: Cooperfoz e Reciclavale, em Itajaí) | Receber material limpo e separado, com condições de trabalho adequadas | Médio | Alto | Beneficiadas indiretamente: o guia de separação orienta a separação correta; sem contato nesta disciplina |
 | Comerciantes locais | Potenciais parceiros em evoluções futuras | Aproximar clientes e associar a marca à sustentabilidade | Médio | Médio | Manter informados sobre os resultados do MVP |
 | Equipe do projeto e professor | Desenvolvem, avaliam e orientam | Entregar um aplicativo testado e documentado | Alto | Alto | Reuniões de sprint e entregas por etapa |
 
@@ -86,7 +86,7 @@ Os principais envolvidos, com seu papel, interesse, nível de poder e de interes
 
 As atividades seguem o ciclo do desenvolvimento orientado a testes: escrever o teste, vê-lo falhar, implementar o código mínimo, refatorar e executar os testes de regressão. As principais atividades são:
 
-- **Levantamento de requisitos:** reuso da pesquisa de campo do HOW IV e conferência dos dias de coleta e dos pontos de descarte de cada município cadastrado.
+- **Levantamento de requisitos:** reuso da pesquisa de campo do HOW IV e levantamento, em fontes públicas, dos dias de coleta e dos pontos de descarte dos municípios cadastrados.
 - **Especificação de testes:** critérios de aceite escritos antes da implementação de cada funcionalidade.
 - **Desenvolvimento:** regras de negócio no módulo compartilhado, armazenamento local e telas.
 - **Refatoração:** melhoria do código mantendo os testes aprovados.
@@ -109,11 +109,11 @@ Foram escolhidas ferramentas adequadas ao desenvolvimento orientado a testes em 
 
 As métricas de sucesso permitem avaliar se o projeto atinge seus objetivos:
 
-- **Cobertura de testes:** 70% ou mais no código das regras de negócio.
-- **Integração contínua:** testes aprovados a cada alteração enviada ao repositório.
-- **Alcance regional:** 2 ou mais municípios do Vale do Itajaí cadastrados no MVP.
-- **Validação:** todos os critérios de aceite do MVP executados pelo grupo em um roteiro de testes, com resultado registrado.
-- **Usabilidade:** nota média igual ou superior a 4, em uma escala de 1 a 5, dada pelos integrantes ao fim do roteiro de testes.
+- **Cobertura de testes:** percentual do código das regras de negócio coberto por testes automatizados, medido com ferramenta de cobertura a cada sprint.
+- **Integração contínua:** proporção das execuções do pipeline em que os testes são aprovados, a cada alteração enviada ao repositório.
+- **Alcance regional:** quantidade de municípios e setores cadastrados nos dados do aplicativo, que indica a cobertura da região.
+- **Validação:** proporção dos critérios de aceite do MVP executados e aprovados pelo grupo em um roteiro de testes, com resultado registrado.
+- **Usabilidade:** avaliação dada pelos integrantes, em uma escala de 1 a 5, ao fim do roteiro de testes.
 - **Efeito esperado:** a redução do desconhecimento dos dias de coleta e dos pontos de descarte só poderá ser medida em um piloto com moradores, previsto como trabalho futuro.
 
 ## Cronograma e Recursos
